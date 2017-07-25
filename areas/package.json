@@ -1,0 +1,16 @@
+{
+  "name": "areas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ramda": "^0.24.1",
+    "spreadsheet-slurper": "github:nypl-spacetime/spreadsheet-slurper"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
