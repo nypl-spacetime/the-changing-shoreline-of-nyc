@@ -4,4 +4,4 @@ In geological terms, a bluff is an elevated territory of land that has been erod
 
 http://www.nytimes.com/2007/04/08/nyregion/thecity/08bluf.html
 
-! [The Polo Grounds when still used as a stadium] (https://images.nypl.org/index.php?id=722650F&t=w)
+![The Polo Grounds when still used as a stadium](https://images.nypl.org/index.php?id=722650F&t=w)
