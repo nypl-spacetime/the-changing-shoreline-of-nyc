@@ -1,3 +1,3 @@
 # Turtle Bay
 
-![Turtle Bay in the early 17th Century](https://digitalcollections.nypl.org/items/510d47da-25e8-a3d9-e040-e00a18064a99)
+![Turtle Bay in the mid 19th Century](https://images.nypl.org/index.php?id=424333&t=w)
