@@ -6,12 +6,56 @@
   <title>NYC's Shorelines</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="css/style.css" />
-  <script src="js/turf.min.js"></script>
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+  <script src="js/promise.min.js"></script>
+  <script src="js/fetch.js"></script>
+  <script src="js/d3.v4.min.js"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 <body>
-  <div id="map"></div>
+  <div id="map-container">
+    <div id="map"></div>
+  </div>
+  <header>
+    <article>
+      <h1>The changing shorelines of Manhattan and Brooklyn</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </article>
+    <div class="page trigger-overview">
+    </div>
+    <div class="page">
+    </div>
+  </header>
+  <main>
+    <ol id="areas">
+
+    </ol>
+  </main>
+  <footer>
+    <div class="page trigger-overview">
+    </div>
+    <article>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <p>
+        For more maps, photos, see Digital Collections, NYC Space/Time Directory!
+      </p>
+    </article>
+  </footer>
+  <script src="js/scrollMonitor.js"></script>
   <script src="js/shorelines.js"></script>
 </body>
 </html>

@@ -1,11 +1,58 @@
 body {
   padding: 0;
   margin: 0;
-  height: 5000vh;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 19px;
+  line-height: 1.58;
+}
+
+body, #map {
+  margin: 0 auto;
+  max-width: 750px;
+}
+
+h1, h2, h3, p, article {
+  padding: 10px;
+  margin: 0;
+}
+
+p img {
+  width: 100%;
+}
+
+header, main, footer {
+  position: relative;
+}
+
+article {
+  background-color: white;
+}
+
+#areas {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  width: 100%;
+  height: 110vh;
+  position: relative;
+}
+
+.area {
+  box-sizing: border-box;
+}
+
+#map-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #map {
-  position: fixed;
-  width: 50vw;
   height: 100vh;
 }

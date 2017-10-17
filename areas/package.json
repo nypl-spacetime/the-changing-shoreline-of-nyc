@@ -2,9 +2,10 @@
   "name": "areas",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "fetch-areas.js",
   "dependencies": {
     "ramda": "^0.24.1",
+    "showdown": "^1.7.6",
     "spreadsheet-slurper": "github:nypl-spacetime/spreadsheet-slurper"
   },
   "devDependencies": {},
