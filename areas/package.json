@@ -4,6 +4,7 @@
   "description": "",
   "main": "fetch-areas.js",
   "dependencies": {
+    "@turf/centroid": "^4.7.3",
     "ramda": "^0.24.1",
     "showdown": "^1.7.6",
     "spreadsheet-slurper": "github:nypl-spacetime/spreadsheet-slurper"

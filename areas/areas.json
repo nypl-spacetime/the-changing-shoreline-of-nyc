@@ -8,8 +8,8 @@
         "mapId": 27682,
         "story": "<h1 id=\"marblehill\">Marble Hill</h1>\n<p>Related to the Spuyten Duyvil Creek, Marble Hill played a roll in the shaping of the northern tip of Manhattan as we know it today. The Harlem River Ship Canal, a massive vision that was bound to fulfill many ship-goers dreams, executed an awesome feat during the late 19th Century. The land mass of Marble Hill originally connected to the eastern most part of the northern tip of Manhattan, today where Columbia University Bakers Field is located and Broadway extends to the Bronx. The bulging appendage posed an obstacle for many maritime voyages as the Spuyten Duyvil Creek was already uncompromising enough. Finally with government support and a company’s work force, the Harlem River Ship Canal blasted through the crevice in 1895 that just barely joined Marble Hill with Manhattan and created a creek wide enough for ships to pass through from the Harlem River and onto the Hudson. </p>\n<p><img src=\"https://images.nypl.org/index.php?id=804961&t=w\" alt=\"\" /></p>\n<p>Marble Hill's identity as an island was only temporary as it later joined the Bronx in 1913 by landfill of the original Spuyten Duyvil Creek using material from the excavation for the foundation for the Grand Central Terminal. The final phase to complete the vision for a passageway that would make the island fully possible to circumnavigate fused the peninsula that stuck out of the Bronx to Manhattan. The result forced Johnson Iron Works, a company town that produced steel mechanical parts on the peninsula and peaked in productivity and population around 1917, to shut down and the land was fused to supply Manhattan’s further expansion. The island was now fully independent as a land mass and a web of communication and transportation infrastructure progressively installed Manhattan’s site specificity. Marble Hill, now a part of the Bronx, is still technically part of Manhattan; its street names are a reminder of the founding Dutch colony that made its way as the first European settlement in the island and it is one of the only places in Manhattan, similar to the neighborhood of Spuyten Duyvil, where urban dwellers live in freestanding houses with porches and spacious gardens. Its winding roads reflect the former path the Spuyten Duyvil Creek established so long ago and is now imprinted into the city’s concrete fabric. </p>",
         "center": [
-          -73.911105,
-          40.8754779
+          -433.91142198913974,
+          40.875345287284304
         ]
       },
       "geometry": {
@@ -179,12 +179,103 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "battery-park",
+        "mapId": 15108,
+        "story": "<h1 id=\"thebattery\">The Battery</h1>\n<p>The beginning of the 19th Century piqued robust development for the Battery as well as the historic coastline of Lower Manhattan to grow into the body of today’s bustling metropolis. The factors that stimulated its growth depend on various pressures of either local, national, or international scale. Most fundamentally being the gateway to the new country, where the bustling metropolis of today originated from, the Battery’s expansions were provided to mediate and protect the new city’s identity as a port city. By this time, the European settlers have implemented piling strategies that reduced the waterfront to a binary condition, a hard city edge snapped to a swelling harbor to fulfill their needs of import/export. Larger moments of landmass acquisition include the southwest expansion of the Battery which was completed in 1811 by landfill. The point advanced in views of both the Hudson and East Rivers. In a different instance that reacted to a more international scale, the Battery expands during the War of 1812 to protect the Buttermilk Channel in the East River. The British never attacked Manhattan during this war, which in New England was regarded as President Madison’s War, a useless war that was brought on by the War Hawks legislature that was prevalent in America’s youth as a freshly independent country. </p>\n<p><img src=\"https://images.nypl.org/index.php?id=5059807&t=w\" alt=\"\" /></p>\n<p><img src=\"https://images.nypl.org/index.php?id=800777&t=w\" alt=\"\" /></p>\n<p>On a more local scale, the Battery adds a waterborne satellite to its commanding position on the island. Originally meant to provide an arsenal in times of battle, Castle Clinton is constructed from stone in 1807. The manmade island was connected to Manhattan by a wooden bridge and was never used for combat. In 1824 the fortress was converted to a gala space and the now Castle Garden hosts extravagant events for close to a quarter of a century. A huge fountain is installed in the interior of the space in 1843 which is at the time the city’s largest indoor concert hall. In 1855, the palace is joined by fill to Manhattan and given over to the state to become transformed into a temporary station where immigrants first arrive to the island. </p>\n<p>In its original condition, as the Europeans would have found it in their first expeditions to the continent, the Battery extended in sandy beaches up to 34th Street on the West Side of Manhattan. The marine-water habitat at the Battery was very diverse because its bottom topography could have been inhabited by many different organisms, one of them being the oyster which famously formed extensive beds in the Harbor, naturally protecting the island from storm surge and rising tides. Because the Battery has been progressively constructed and reconstructed at the edge, thereby erasing the beach landscape and rich marine-water habitat, to fit the demands of the growing city, the coastline today is highly engineered to contain the lower part of the island and sustain its demanding accumulation of human intervention. Facing dramatic and fluctuating weather conditions throughout history in its various experiences of land usage, the Battery is defined by an innate resiliency that demands fortification whatever the time period. In its history as part of the new nation, the Battery has witnessed conditions as extreme as winters so cold that the New York Harbor froze over as during the Revolutionary War or as agreeable summers that fair well with its unique identity as Manhattan’s early beaches. Today the Battery is a key turning point in plans to retrofit a resiliency infrastructure along the coast of lower Manhattan. The Big U, designed by the Bjarke Ingels Group, encompasses a wide mile stretch of the historic waterfront in reaction to the unprecedented damage caused by Hurricane Sandy. The new development will wrap around the edge and install itself stealthily as a new urban program in already existing waterfront programming.</p>\n<p><img src=\"https://images.nypl.org/index.php?id=5131009&t=w\" alt=\"\" /></p>",
+        "center": [
+          -74.01510715484619,
+          40.70294199375341
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.01602983474731,
+              40.70496101150311
+            ],
+            [
+              -74.01759624481201,
+              40.704538078914055
+            ],
+            [
+              -74.01830434799194,
+              40.70435914508713
+            ],
+            [
+              -74.01856184005737,
+              40.70339940090219
+            ],
+            [
+              -74.0183687210083,
+              40.702651116180334
+            ],
+            [
+              -74.01705980300903,
+              40.701626277811634
+            ],
+            [
+              -74.01562213897705,
+              40.70086170558413
+            ],
+            [
+              -74.01379823684692,
+              40.70053635303826
+            ],
+            [
+              -74.01210308074951,
+              40.70060142367456
+            ],
+            [
+              -74.01173830032349,
+              40.70170761476618
+            ],
+            [
+              -74.01263952255249,
+              40.70237457404695
+            ],
+            [
+              -74.01334762573242,
+              40.70240710847517
+            ],
+            [
+              -74.01390552520752,
+              40.70261858187129
+            ],
+            [
+              -74.01435613632202,
+              40.70331806601356
+            ],
+            [
+              -74.01394844055176,
+              40.70440794526944
+            ],
+            [
+              -74.01429176330566,
+              40.704749545544296
+            ],
+            [
+              -74.01515007019043,
+              40.70489594512575
+            ],
+            [
+              -74.01602983474731,
+              40.70496101150311
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "battery-park-city",
         "mapId": 7793,
         "story": "<h1 id=\"batteryparkcity\">Battery Park City</h1>\n<p>Envisioned as a residential area for professionals working in the Financial District, Battery Park City sits on an artificial appendage of New York City and hosts mostly family dwellers who can afford the expensive high rise apartments there. Since the 1980s when the plan to build the new addition to city emerged, many of the public space amenities Battery Park City projected at first were slowly taken up by buildings to house new residents. The project encountered New York in a fiscally stagnant time and determined to vitalize the Financial District. Proposals to hit the ground running in turn proved flat for some time. Consequently, artists and artist collectives interevened at the landfill site, one such being Creative Time's inaugural \"Art on the Beach\" that featured site specific installations by artists or Agnes Dennis's \"Wheatfield\" which has produced stunning documentation of a gold wheatfield with downtown New York as the background. </p>",
         "center": [
-          -74.0160889,
-          40.7116215
+          -74.01749815259662,
+          40.71189688635759
         ]
       },
       "geometry": {
@@ -230,12 +321,190 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "blackwells-island",
+        "mapId": 15065,
+        "story": "<h1 id=\"blackwellsisland\">Blackwell’s Island</h1>\n<p>The City of New York excommunicates Roosevelt Island, originally land of the Lenape then turned farmland at the hands of the Dutch, for most of its history which contrasts its comfortable suburban disposition within the context of the city. One of the only island communities outside of the massive Manhattan island, Roosevelt Island claims a shoreline all to itself, but it has not always been defined by scenic views and jogging couples. Insane asylums, hospitals, and penitentiaries dominated the landscape of the island during the time that Manhattan was expanding by the Commissioner’s grid plan and the population of immigrants in downtown Manhattan was exponentially growing. The corrective institutions were wildly untamed, corrupted, and never functional as documented in the outstanding reports of young female journalist Nellie Bly. In the question of its future under 20th Century governance, Roosevelt Island became a hotbed for architectural revival and expanded city planning, including the preservation of some of the original institutional buildings and urban green-space renewal. Today, the ruins of Blackwell Island dilapidate peripherally to the growing information center started by Cornell Tech as well as the open landscapes on the island, including Four Freedoms park designed by architect Louis Kahn. The site is more accessible and favorable to visit today and can be reached by tram, subway, and ferry.</p>\n<p><img src=\"https://images.nypl.org/index.php?id=810131&t=w\" alt=\"\" /></p>",
+        "center": [
+          -73.95012575037339,
+          40.76162147099638
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.94622802734375,
+              40.76962180287486
+            ],
+            [
+              -73.94923210144043,
+              40.76487640472523
+            ],
+            [
+              -73.9540386199951,
+              40.760390716878376
+            ],
+            [
+              -73.96013259887695,
+              40.75310895587201
+            ],
+            [
+              -73.96245002746582,
+              40.75102830623012
+            ],
+            [
+              -73.96227836608887,
+              40.74940275339479
+            ],
+            [
+              -73.96064758300781,
+              40.748947591479705
+            ],
+            [
+              -73.95918846130371,
+              40.7494677762712
+            ],
+            [
+              -73.95635604858398,
+              40.751808557475776
+            ],
+            [
+              -73.95197868347168,
+              40.75661990450192
+            ],
+            [
+              -73.94502639770508,
+              40.7640963068463
+            ],
+            [
+              -73.94176483154297,
+              40.767541670057234
+            ],
+            [
+              -73.93901824951172,
+              40.76923178293144
+            ],
+            [
+              -73.93893241882324,
+              40.771831872647006
+            ],
+            [
+              -73.93936157226562,
+              40.77397687006888
+            ],
+            [
+              -73.94124984741211,
+              40.77410686768698
+            ],
+            [
+              -73.94425392150879,
+              40.77150686699662
+            ],
+            [
+              -73.94622802734375,
+              40.76962180287486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "governors-island",
+        "mapId": 8237,
+        "story": "<h1 id=\"governorsisland\">Governors Island</h1>\n<p>Governor’s Island was actually the first stop for many of the first Dutch settlers in the New World. They tried to cultivate farmland, sawmills, and cattle although the conditions were insufficient to continue these practices on the island. One can imagine the timidity many of the settlers would have had to experience when facing the 1609 shoreline of the larger, more important island to the north. As the population increased on the little island, called Nooten Eylandt (Nutten Island) by the Dutch who went by the Lenape’s classification of the island, people slowly made the jump to Lower Manhattan via rowboats transporting their cattle and crops along with them. The shoreline of Lower Manhattan just beyond the original 70 acre island was an ideal location for many ships to dock as the waters reach depths enough for larger vessels to comfortably sit at the harbor. As Lower Manhattan shoreline’s grew, they took up more water area, thus changing the natural shoreline depth, often dramatizing depth for more and more ships to dock. Nutten Island remained an idyllic retreat for the Dutch settler’s governors as well as the future British commanders. </p>",
+        "center": [
+          -74.0191787481308,
+          40.688342492443375
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.02210235595702,
+              40.692483371144434
+            ],
+            [
+              -74.02459144592285,
+              40.69069368741975
+            ],
+            [
+              -74.02763843536377,
+              40.68769992719189
+            ],
+            [
+              -74.02832508087158,
+              40.68522671947258
+            ],
+            [
+              -74.02746677398682,
+              40.683274122230706
+            ],
+            [
+              -74.02416229248047,
+              40.68249306731685
+            ],
+            [
+              -74.02064323425293,
+              40.6827208759455
+            ],
+            [
+              -74.01845455169678,
+              40.683990081194764
+            ],
+            [
+              -74.01609420776367,
+              40.685389433327266
+            ],
+            [
+              -74.01261806488037,
+              40.6868212981188
+            ],
+            [
+              -74.01064395904541,
+              40.68831821478072
+            ],
+            [
+              -74.01000022888184,
+              40.68971747603666
+            ],
+            [
+              -74.01064395904541,
+              40.69196274083697
+            ],
+            [
+              -74.01429176330566,
+              40.69437062190733
+            ],
+            [
+              -74.0183687210083,
+              40.69456585169382
+            ],
+            [
+              -74.02081489562988,
+              40.693752390476
+            ],
+            [
+              -74.02210235595702,
+              40.692483371144434
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "mccarren-park",
         "mapId": 27006,
         "story": "<h1 id=\"mccarrenpark\">McCarren Park</h1>\n<p>Bushwick Inlet used to travel into Brooklyn, or Breukelen, for more than x miles. As industrialization replaced many farmlands in Brooklyn, the waters were covered to provide as much usable land for new industry. The park, commissioned by senator Patrick McCarrin, posted a strategic urban intervention of green space for northern Brooklyn. Today, the area’s waterfront is a highly contested ground for stakeholders of land development. The last piece of waterfront was purchased by the city and plans to construct a natural park are underway. An alternate to the city’s planning initiatives brings to focus the existing infrastructures of the site and transforms the objects to drive the programmatic elements to the park. How does this forgotten stream today shape the way the city’s inhabitants view the city? Or in what ways does the removal and implementation of new land use manifest itself in the city today.</p>\n<p>More about the project: http://www.maker-park.org</p>",
         "center": [
-          -73.951036,
-          40.7203529
+          -73.95610515887921,
+          40.72343534786684
         ]
       },
       "geometry": {
@@ -349,6 +618,775 @@
             [
               -73.96004676818848,
               40.72727502857619
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "newtown-creek",
+        "mapId": 27053,
+        "story": "<h1 id=\"newtowncreek\">Newtown Creek</h1>\n<p>The creek diverges into two other streams closer to the terminal inland. Closer to the boundary between Brooklyn and Queens lies a cemetery belt separating the areas of Maspeth and Ridgewood from Bushwick. Newtown Creek is notoriously and historically polluted with many of the factories and individual rubbish throughout the years. The nature trail along Newtown Creek seeks to console the situation of the Creek with its pungent past.</p>\n<p><a href=\"http://northbrooklynboatclub.org/about/\">The Newtown Creek hosts boaters from around the neighborhood and leads water expeditions regularly</a></p>",
+        "center": [
+          -73.94054287358334,
+          40.73082678074168
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.96184921264648,
+              40.741209362255695
+            ],
+            [
+              -73.96322250366211,
+              40.7397786666437
+            ],
+            [
+              -73.96553993225096,
+              40.73496610102712
+            ],
+            [
+              -73.96425247192383,
+              40.73216945026674
+            ],
+            [
+              -73.95996093749999,
+              40.73281984465465
+            ],
+            [
+              -73.95601272583006,
+              40.735681504432264
+            ],
+            [
+              -73.95360946655273,
+              40.737242357886416
+            ],
+            [
+              -73.94940376281738,
+              40.73581157695217
+            ],
+            [
+              -73.94511222839355,
+              40.733730386116875
+            ],
+            [
+              -73.94107818603516,
+              40.72989301984284
+            ],
+            [
+              -73.93850326538086,
+              40.72820190682675
+            ],
+            [
+              -73.93223762512207,
+              40.72514478577349
+            ],
+            [
+              -73.92974853515625,
+              40.721827325333784
+            ],
+            [
+              -73.93095016479492,
+              40.718444646402055
+            ],
+            [
+              -73.93335342407227,
+              40.71532202096979
+            ],
+            [
+              -73.93378257751465,
+              40.71206913039633
+            ],
+            [
+              -73.93000602722168,
+              40.71154865315634
+            ],
+            [
+              -73.92537117004395,
+              40.711873951908096
+            ],
+            [
+              -73.92159461975098,
+              40.71369559554873
+            ],
+            [
+              -73.91910552978516,
+              40.71590752439506
+            ],
+            [
+              -73.9189338684082,
+              40.71935538456314
+            ],
+            [
+              -73.91867637634277,
+              40.722607919136934
+            ],
+            [
+              -73.92030715942383,
+              40.72507973911892
+            ],
+            [
+              -73.92425537109375,
+              40.727291289709356
+            ],
+            [
+              -73.92914772033691,
+              40.73099872434727
+            ],
+            [
+              -73.93275260925293,
+              40.73132392805779
+            ],
+            [
+              -73.93790245056152,
+              40.733665347854235
+            ],
+            [
+              -73.93918991088867,
+              40.734770989672406
+            ],
+            [
+              -73.94073486328125,
+              40.73808780488359
+            ],
+            [
+              -73.93755912780762,
+              40.73971363429379
+            ],
+            [
+              -73.93670082092285,
+              40.74394060479145
+            ],
+            [
+              -73.94039154052734,
+              40.745696344339564
+            ],
+            [
+              -73.94399642944336,
+              40.74400563300867
+            ],
+            [
+              -73.94554138183594,
+              40.741209362255695
+            ],
+            [
+              -73.95017623901367,
+              40.74094923806963
+            ],
+            [
+              -73.95257949829102,
+              40.7415995466274
+            ],
+            [
+              -73.9573860168457,
+              40.74198972871025
+            ],
+            [
+              -73.95970344543457,
+              40.74179463795495
+            ],
+            [
+              -73.96184921264648,
+              40.741209362255695
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "north-brother-island",
+        "mapId": 16449,
+        "story": "<h1 id=\"northbrotherisland\">North Brother Island</h1>\n<p>Once an uninhabited island in the East River nesting along the southern coast of the Bronx, North Brother Island undergoes transformations in its public space as a hospital, public gardens, and finally an asylum for young drug addicts. The site is initially acquired by Dutch settler __ in the year __, remains uninhabited until the year (year). The hospital (name) is built to (keep) the sick of typhoid concenctraded away from the city mass. In this controlled contaminated environment, order (falls apart) and the island is left barren for the next wave of (sick people). In the words of Frank Lima, a New York City poet who was (put in) the asylum (in one of the later regenerations of the island) of the late 50s, write: (quote from Lima). Today, the site is in architectural ruin and only (specific) personnel can (gain access) to the island. There also has been a recent decline in the number of wading birds spotted on the island, indicating an ecological shift in the (New York City demography of birds). </p>",
+        "center": [
+          -73.89894144875663,
+          40.80073705102199
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.90073776245117,
+              40.80257021819871
+            ],
+            [
+              -73.90232563018799,
+              40.80062106285213
+            ],
+            [
+              -73.90202522277832,
+              40.7990941845174
+            ],
+            [
+              -73.89949321746826,
+              40.79753478315849
+            ],
+            [
+              -73.89533042907715,
+              40.79889926135089
+            ],
+            [
+              -73.89455795288086,
+              40.80299252764601
+            ],
+            [
+              -73.89811992645262,
+              40.803447319430305
+            ],
+            [
+              -73.90073776245117,
+              40.80257021819871
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rikers-island",
+        "mapId": 16449,
+        "story": "<h1 id=\"rikersisland\">Rikers Island</h1>\n<p>The facility reclaims over (number) square feet to fit the current penitentiary, a modern iteration of the heyday at Blackwell’s Island. The name Rikers goes back to Dutch colonial times when the then current mayor Peter Stuyvesant granted the land to a family of farmers. The island sustained at least one household throughout its life as a colonial land appropriated from the native people of Manhattan, and was associated with Queens county until the city consolidated and is now under Bronx jurisdiction. Landfill was redirected to Rikers which ended New York’s ocean dumping that harmed Coney Island and New Jersey shores as well as construction debris from the city’s excavation of subway lines. Much of this labor to manage the site was carried out by prisoners of Rikers Island in the 1890s which at this time had basic prison facilities installed.  The unstable natural state of the island (only half of its original acres reached above the high water mark, and about 7 times that figure was the island defined by a shallow sandbar) was constantly smoldering under the burden of the perpetual overcrowding in the correctional system as well as the dumping that took place to form the island.</p>",
+        "center": [
+          -73.88251713344029,
+          40.79148687643664
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.88897895812988,
+              40.799516516081255
+            ],
+            [
+              -73.89215469360352,
+              40.79802210001829
+            ],
+            [
+              -73.89378547668457,
+              40.795617968801466
+            ],
+            [
+              -73.89533042907715,
+              40.79210908049706
+            ],
+            [
+              -73.89215469360352,
+              40.78814511323808
+            ],
+            [
+              -73.88812065124512,
+              40.785220723422235
+            ],
+            [
+              -73.88365745544432,
+              40.78431088699294
+            ],
+            [
+              -73.87619018554688,
+              40.784180909342695
+            ],
+            [
+              -73.87138366699219,
+              40.78444086438884
+            ],
+            [
+              -73.86940956115723,
+              40.78840505276722
+            ],
+            [
+              -73.86898040771484,
+              40.791329302356345
+            ],
+            [
+              -73.87258529663086,
+              40.792563946850024
+            ],
+            [
+              -73.87816429138184,
+              40.79672258044242
+            ],
+            [
+              -73.88434410095215,
+              40.80023122491412
+            ],
+            [
+              -73.88897895812988,
+              40.799516516081255
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "roberto-clemente-state-park",
+        "mapId": 16273,
+        "story": "<h1 id=\"robertoclementestatepark\">Roberto Clemente State Park</h1>\n<p>This waterfront park in the Bronx, originally destined as the Harlem River Park, houses a complex of recreational programs. The namesake of Roberto Clemente is dedicated to the first Latino-born baseball player in a New York professional league. The park welcomes people of all walks of life to engage with pool facilities, water playgrounds, baseball fields, basketball courts, and water related amenities. However, the park directors admit to the park’s low favorability to the waterfront. Hurricane Sandy inflicted some damage to the park in (year) and it is currently going through renovations to make the park more Harlem River friendly and improve on its other water related destinations.</p>",
+        "center": [
+          -73.91857862472534,
+          40.85642901850424
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.91841888427734,
+              40.858957219380976
+            ],
+            [
+              -73.9218521118164,
+              40.85541922129015
+            ],
+            [
+              -73.92208814620972,
+              40.853942294625995
+            ],
+            [
+              -73.92045736312866,
+              40.853293085675155
+            ],
+            [
+              -73.91874074935913,
+              40.853585230490275
+            ],
+            [
+              -73.91670227050781,
+              40.85541922129015
+            ],
+            [
+              -73.91569375991821,
+              40.857496600869574
+            ],
+            [
+              -73.91614437103271,
+              40.859671287820504
+            ],
+            [
+              -73.91710996627808,
+              40.860077005095356
+            ],
+            [
+              -73.91841888427734,
+              40.858957219380976
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "spuyten-duyvil-creek",
+        "mapId": 27682,
+        "story": "<h1 id=\"spuytenduyvilcreek\">Spuyten Duyvil Creek</h1>\n<p>This creek, now the namesake of a shorefront park right across the Harlem River from Inwood Park, was a narrow, winding, noxious waterway with four tides per day which at the time only suggested that Manhattan was detached from mainland Bronx. In Dutch, the Spuyten Duyvil translates as the 'Spitting Devil' so you can imagine the difficulty for the original settlers of the island to navigate their wide wooden ships to get from one side of the island to the other. The shoreline park is bounded by the Metro-North Rail which runs directly on the coast and makes its way into Grand Central from the station in 23 minutes.  </p>\n<p><img src=\"https://images.nypl.org/index.php?id=800205&t=w\" alt=\"\" />\n<img src=\"https://images.nypl.org/index.php?id=800187&t=w\" alt=\"\" />\n<img src=\"https://images.nypl.org/index.php?id=482699&t=w\" alt=\"\" /></p>",
+        "center": [
+          -73.92395106228915,
+          40.877757934785826
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.92455577850342,
+              40.88016501590686
+            ],
+            [
+              -73.92747402191162,
+              40.879808093135836
+            ],
+            [
+              -73.929705619812,
+              40.87769896474619
+            ],
+            [
+              -73.92931938171387,
+              40.87636855689051
+            ],
+            [
+              -73.92657279968262,
+              40.87500567233877
+            ],
+            [
+              -73.92374038696289,
+              40.875330171205555
+            ],
+            [
+              -73.92077922821045,
+              40.876011613648416
+            ],
+            [
+              -73.91889095306396,
+              40.876790396422564
+            ],
+            [
+              -73.91820430755614,
+              40.87805589889009
+            ],
+            [
+              -73.92125129699707,
+              40.879970330997615
+            ],
+            [
+              -73.9229679107666,
+              40.880132568461775
+            ],
+            [
+              -73.92455577850342,
+              40.88016501590686
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "strikers-bay",
+        "mapId": 15145,
+        "story": "<h1 id=\"strykersbay\">Stryker's Bay</h1>\n<p>In New York City’s early colonial past, the Upper West Side of Manhattan rendered a wealthy suburban setting with small hamlets sprinkled conveniently along the island’s coastline. Stryker’s Bay was one of these settlements and centered itself around a small inlet that has since been filled in. Spanning the length of one subway stop on the 1 train, the sleepy town was comfortably situated between present day 86th Street and 96th Street along Bloomingdale Road, or today’s Broadway. The bay had an intimate waterfront public life and hosted joyful small town affairs at the Stryker’s Bay Tavern. A ferry transported people from Stryker’s manicured farmlands and picket-fences along the Hudson River to a bustling downtown area teeming with new businesses and modern city developments. The majority of these West Side towns took advantage of the undisturbed natural topography of Manhattan, although many, like Harsenville, Carmansville, and Manhattanville, used it to their advantage, either exploiting land for industrial use, farmland, or institutional landmarking. </p>\n<p><img src=\"https://images.nypl.org/index.php?id=ps_prn_592&t=w\" alt=\"\" /></p>",
+        "center": [
+          -73.9740294,
+          40.7922845
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9740294,
+          40.7922845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sunswick-creek",
+        "mapId": 9072,
+        "story": "<h1 id=\"sunswickcreek\">Sunswick Creek</h1>\n<p>Like most lost native ecologies, the city turns neglected sites into park lands. Socrates Sculpture Park, located at the mouth of Sunswick Creek, resembles the community initiative inspired by artists Mark di Suvero along with (Noguchi) to restore the land for people to use. The park (park’s importance). From here, the creek moves South into Queens towards present day Long Island City, a path followed by artist Mary Miss in her 2012 installation ‘Reflecting Forward’. The Creek previously (why was the Creek important? sawmill?) and its physical fissure of the part of Queens reflects today’s mostly detached and fairly industrial atmosphere of the site. (What is there today?)</p>\n<p>http://www.cityaslivinglab.org/ravenswood-r-call/</p>",
+        "center": [
+          -73.93599158839176,
+          40.76652032029755
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.93738746643066,
+              40.77036933470111
+            ],
+            [
+              -73.93871784210205,
+              40.76975180901395
+            ],
+            [
+              -73.94039154052734,
+              40.768776756770855
+            ],
+            [
+              -73.94039154052734,
+              40.76757417263327
+            ],
+            [
+              -73.93846035003662,
+              40.76734665426719
+            ],
+            [
+              -73.93768787384033,
+              40.76643657301343
+            ],
+            [
+              -73.93682956695557,
+              40.76526645023099
+            ],
+            [
+              -73.93682956695557,
+              40.76328369515235
+            ],
+            [
+              -73.93695831298828,
+              40.76230854800487
+            ],
+            [
+              -73.93524169921875,
+              40.76065076501977
+            ],
+            [
+              -73.93331050872801,
+              40.76123586961813
+            ],
+            [
+              -73.93206596374512,
+              40.7625685886431
+            ],
+            [
+              -73.9315938949585,
+              40.76455136505513
+            ],
+            [
+              -73.93172264099121,
+              40.766079037682395
+            ],
+            [
+              -73.93373966217041,
+              40.76838673186755
+            ],
+            [
+              -73.9350700378418,
+              40.768744254783016
+            ],
+            [
+              -73.93524169921875,
+              40.76962180287486
+            ],
+            [
+              -73.93575668334961,
+              40.77036933470111
+            ],
+            [
+              -73.93644332885742,
+              40.77056434162053
+            ],
+            [
+              -73.93738746643066,
+              40.77036933470111
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tubby-hook",
+        "mapId": 16091,
+        "story": "<h1 id=\"tubbyhook\">Tubby Hook</h1>\n<p><img src=\"http://arthistoryreference.com/006/me/509.jpg\" alt=\"\" />\nVictor Gifford Audubon. View of Hudson River. c1843. Oil on canvas. 112 x 175 cm</p>\n<p>Tubby Hook was once an awesome natural feature of the Manhattan coastline and the rural charm of Manhattanville was enhanced by the grandeur of the Hudson and the Palisades just across the river in New Jersey. A subject of many artistic expressions, particularly in the Hudson River School of painting, Tubby Hook, along with Fort Tryon Park and the surrounding area, including the Asylum for the Deaf and Dumb which is situated on present day Columbia University campus, was rendered as one of the last untouched habitats of the island before the grid influenced their divisions. Published in <em>Scribner’s</em> magazine in 1893, American novelist HC Bunner’s piece “Tiemann’s to Tubby Hook” critiques the establishment of the gridiron in Manhattan and provides a nuanced glimpse into what it might have felt like to be living in such a transformative period in New York City history that would define its future existence. Bunner writes:</p>\n<p><em>The Bloomingdale Road, with its great arching willows, its hospitable old roadhouses withdrawn from the street and hidden far down shady lanes that led riverward — the splendid old highway retained something of its charm; but day by day the gridiron system of streets encroached upon it, and day by day the shanties and the cheap villas crowded in along its sides, between the old farmstead and the country-places. And then it led only to the raw and unfinished Central Park, and to the bare waste and dreary fag-end of a New York that still looked upon Union Square as an uptown quarter.</em></p>\n<p>The experience Bunner arrives at romanticizes the natural qualities of the island in a time that is defined by technological advancement and the abstraction of land for city building. Although in the energy of logic and genius that the gridiron system proclaims during this time of New York City history, the tensions between the physicality of the island and human endeavor and experience sharpen in disparity. Bunner continues in his personal account:</p>\n<p><em>But if the beauty of Broadway as a country high-road had been marred by its adaptation to the exigencies of a suburb of moderate means, […] to right and to left, as we wandered northward, five minutes’ walk would take us into a country of green lanes and meadows and marshland and woodland; where houses and streets were as yet too few to frighten away that kindly old Dame Nature who was always so glad to see us.</em></p>\n<p>Boyhood descriptions aside, the scene Bunner describes is almost unrecognizable in the city today. The vastness of territory in Bunner’s perspective shears his expectations of what Central Park will become in his lifetime, a vast oasis which can be read as the negative space of a sytstem that has taken over the rural settings Bunner is describing. More specifically Bunner references Tubby Hook and its unique position on the Hudson River as his favorite place in Manhattanville to 'ramble' in. Furthermore, he reflects on the continuation of the gridiron and condemns its despicable repercussions on the nature he so arduously pursues. The following is a sleight of criticism on modern city life, which has evolved into what we have today. </p>\n<p><em>Great, cheerless, hideously ornate flat buildings reared their zinc-tipped fronts toward the gray heaven, to show the highest aspirations of that demoralized suburb in the way of domestic architecture. To right, to left, every way I turned, I saw cheap, tawdry, slipshod imitation of the real city — or perhaps I should say, of all that is ugliest and vulgarest, least desirable, and least calculated to endure, in the troubled face of city life.</em></p>\n<p>In the end, many of the early Westside hamlets relate to Bunner’s descriptions of a rural Manhattanville, which are slowly being taken over by development in the late 19th Century. The homogenous architecture described in the criticism is derivative of the repetitive grid system and paradoxically complicates the seeming order of the nature authors like Bunner like to allude to. However, the hamlets in themselves can be seen as the seeds of urbanization itself and it would be blinding to want to preserve the  idyllic quality of Nature when its bound to human intervention at any rate. The illusive Tubby Hook, a detail in the text but a great promontory of the physical coastline, grounds the experience and explains much of the author’s dissatisfaction of the destruction of the natural habitat when it is pummeled to the ground literally to provide for landfill and expansion material. </p>\n<p><em>Down there, on old Manhattan,</em>\n<em>Where land-sharks breed and fatten,</em>\n<em>They’ve wiped out Tubby Hook.</em>\n<em>That famous promontory,</em>\n<em>Renowned in song and story,</em> \n<em>Which time nor tempest shook,</em>\n<em>Whose name for aye had been good,</em> \n<em>Stands newly christened ‘Inwood’</em>\n<em>And branded with the shame</em>\n<em>Of some old rogue who passes</em>\n<em>By dint of aliases,</em>\n<em>Afraid of his own name!</em></p>\n<p>William Allen Butler, 1886</p>\n<p><img src=\"https://images.nypl.org/index.php?id=422072&t=w\" alt=\"\" /></p>",
+        "center": [
+          -73.9312481,
+          40.870377
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9312481,
+          40.870377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "turtle-bay",
+        "mapId": 9248,
+        "story": "<h1 id=\"turtlebay\">Turtle Bay</h1>\n<p><img src=\"https://images.nypl.org/index.php?id=424333&t=w\" alt=\"Turtle Bay in the mid 19th Century\" /></p>\n<p>The bay originally emptied the natural stream coming from today’s Central Park Pond (located at the 59th Street and 5th Avenue entrance) into the East River. The United Nations headquarters in New York City today migrated to the former bay in the mid-20th century from its temporary convention center at Flushing Bay in Queens, which now is the building of the Queens Museum. By this time, the idyllic scene and natural resources at the bay were already razed and construction was underway to transform five industrial blocks of the city into the Headquarters. Le Corbusier along with Oscar Niemeyer, the leading advisors to the group of architects in the project, influenced for the complex to reflect the International Style of architecture. Today, the site is considered to be under jurisdiction of international grounds and stands very out of the way in its midtown context; water access is severed from the complex by the expressway and the buildings are erected in a slight depression within the landscape. </p>",
+        "center": [
+          -73.96699476242065,
+          40.750721068683376
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.96648406982422,
+              40.752621309453865
+            ],
+            [
+              -73.9683723449707,
+              40.75195485356503
+            ],
+            [
+              -73.96878004074097,
+              40.75143468822972
+            ],
+            [
+              -73.96901607513428,
+              40.75045936725808
+            ],
+            [
+              -73.96869421005249,
+              40.74964658885345
+            ],
+            [
+              -73.96749258041382,
+              40.749126405460764
+            ],
+            [
+              -73.96644115447998,
+              40.74906138225055
+            ],
+            [
+              -73.96547555923462,
+              40.74997170140747
+            ],
+            [
+              -73.96459579467773,
+              40.75078447583819
+            ],
+            [
+              -73.96459579467773,
+              40.75214991451663
+            ],
+            [
+              -73.96648406982422,
+              40.752621309453865
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "wallabout-bay",
+        "mapId": 15200,
+        "story": "<h1 id=\"wallaboutbay\">Wallabout Bay</h1>\n<p>The site revels in industrial innovation from its first encounter with the colonial settlers that would populate the city’s growing independent district outside of lower Manhattan. The historical richness as first a natural bay, Dutch farmland, Revolutionary wartime prison barge, successful long-time active Navy Yard, 1970s 80s urban blight, and today’s city industrial park reaches world wide scale in its (deeds). Joris Jansen de Rapalje, Brooklyn’s first Walloon to inhabit the site, manages to till the land until British control in 1781 and whose farmland counts as one of the many plots which defined rural Brooklyn at that time. This character makes a reappearance in most of the early Dutch colony’s crucial negotiations to gain independence from the ruling (who in Holland controls the colonies), including the settlers’s standoff with Dutch mayor Stuyvesant, whose farmland used to be just across the water in Manhattan where currently stands the Stuyvesant Town housing project. The natural habitat at the site, including a stream that is now forgotten under Wallabout Street, is cruelly taken under seige by British commanders during the Revolutionary War and is transformed into a prison barge. Thousands of captive people have died in the ships during the Revolution under horrific conditions and notoriously more people died in the Bay than in the all of the war’s battlefields. The Navy Yard continues its identity as a wartime (unit) well into the 20th century, operating from 1801 to 1966 at the most crucial times in world history. Its dry dock allowed for the construction and repair of ships, which would allow ship to come into the bay and have river water drained out so that the sufficient repairs can be made. Contemporary shipbuilding sites at the time Brooklyn Navy Yard was active include the Bushwick Inlet which ceased production by 1889. Similar dry docks were founded on the west side of the East River on the Manhattan shoreline, mostly concentrated in today’s Lower East Side and more specifically at the edge of where Tompkins Square Park is today. The site was decommissioned as an active Navy Yard in 1966 along with many other military bases by Secretary of Defense Robert McNamara which caused many workers to be displaced and the site rapidly declined in industrial activity. The Brooklyn Navy Yard Development Corporation controls the site from the 1980s on and diversifies the traditional maritime industry to include other occupations such as roof top greenhouse agriculture and the nation’s largest film making studio outside of Hollywood. </p>",
+        "center": [
+          -73.97152355739048,
+          40.70403832396749
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.97742748260498,
+              40.707384688773566
+            ],
+            [
+              -73.97927284240723,
+              40.70536767492135
+            ],
+            [
+              -73.97927284240723,
+              40.70370847257314
+            ],
+            [
+              -73.97862911224365,
+              40.70113825399865
+            ],
+            [
+              -73.97373676300049,
+              40.69889329840553
+            ],
+            [
+              -73.97000312805176,
+              40.69794974376306
+            ],
+            [
+              -73.96498203277588,
+              40.69892583453415
+            ],
+            [
+              -73.96266460418701,
+              40.69999951786332
+            ],
+            [
+              -73.96450996398926,
+              40.701854021034045
+            ],
+            [
+              -73.9665699005127,
+              40.70380607385548
+            ],
+            [
+              -73.96832942962646,
+              40.70806785703494
+            ],
+            [
+              -73.96953105926514,
+              40.7097594816142
+            ],
+            [
+              -73.97176265716553,
+              40.70992213555912
+            ],
+            [
+              -73.97463798522949,
+              40.7097594816142
+            ],
+            [
+              -73.97742748260498,
+              40.707384688773566
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stuyvesant-town",
+        "mapId": 16429,
+        "story": "<h1 id=\"stuyvesanttown\">Stuyvesant Town</h1>",
+        "center": [
+          -73.9744758605957,
+          40.732136859936176
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.97837162017821,
+              40.73685214795608
+            ],
+            [
+              -73.98257732391357,
+              40.73138896860918
+            ],
+            [
+              -73.97124767303467,
+              40.72683597647796
+            ],
+            [
+              -73.97077560424805,
+              40.72894990442291
+            ],
+            [
+              -73.97180557250975,
+              40.73034831215804
+            ],
+            [
+              -73.97313594818115,
+              40.73155156970947
+            ],
+            [
+              -73.97339344024658,
+              40.73288488374377
+            ],
+            [
+              -73.97377967834471,
+              40.734803508271256
+            ],
+            [
+              -73.97519588470459,
+              40.73561646807697
+            ],
+            [
+              -73.97837162017821,
+              40.73685214795608
             ]
           ]
         ]

@@ -2,6 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const R = require('ramda')
 const slurper = require('spreadsheet-slurper')
+const centroid = require('@turf/centroid')
 const showdown = require('showdown')
 const converter = new showdown.Converter()
 
@@ -40,14 +41,22 @@ function addGeoJSON (area) {
 }
 
 function toFeature (area) {
-  const coordinates = area.coordinates
-    .split(',')
-    .reverse()
-    .map(parseFloat)
+  let geometry
+  let coordinates
 
-  const geometry = area.geojson || {
-    type: 'Point',
-    coordinates
+  if (area.geojson) {
+    geometry = area.geojson
+    coordinates = centroid(geometry).geometry.coordinates
+  } else {
+    coordinates = area.coordinates
+      .split(',')
+      .reverse()
+      .map(parseFloat)
+
+    geometry = {
+      type: 'Point',
+      coordinates
+    }
   }
 
   return {
@@ -66,7 +75,7 @@ slurper.slurp(spreadsheetKey)
   .filter((area) => area.mapid)
   .map(addStory)
   .map(addGeoJSON)
-  .filter((area) => area.geojson && area.story)
+  .filter((area) => area.story)
   .map(toFeature)
   .toArray((features) => {
     fs.writeFileSync(path.join(__dirname, 'areas.json'), JSON.stringify({

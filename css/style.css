@@ -12,9 +12,47 @@ body, #map {
   max-width: 750px;
 }
 
-h1, h2, h3, p, article {
-  padding: 10px;
+h1, h2, h3 {
+  padding-top: 1em;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+p {
   margin: 0;
+  padding: 1em 0;
+}
+
+article {
+  padding: 1em 0;
+}
+
+@media (max-width: 750px) {
+  article {
+    padding: 1em;
+  }
+}
+
+h1, h2, h3 {
+  border-color: #4d92b8;
+  border-width: 8px;
+  border-bottom-style: solid;
+}
+
+body, article {
+  background-color: #fdfdfd;
+}
+
+body, a, a:visited {
+  color: #222;
+}
+
+a, a:visited {
+  text-decoration: none;
+  border-color: #4d92b8;
+  border-width: 3px;
+  border-bottom-style: solid;
 }
 
 p img {
@@ -23,10 +61,6 @@ p img {
 
 header, main, footer {
   position: relative;
-}
-
-article {
-  background-color: white;
 }
 
 #areas {

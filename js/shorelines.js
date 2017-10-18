@@ -49,11 +49,11 @@ function processAreas (areas) {
       var elementWatcher = scrollMonitor.create(this)
 
       elementWatcher.enterViewport(function () {
-        console.log('showGeoJSON', area.properties.id)
+        // console.log('showGeoJSON', area.properties.id)
         showGeoJSON(area.geometry)
       })
       elementWatcher.exitViewport(function () {
-        console.log('hideGeoJSON', area.properties.id)
+        // console.log('hideGeoJSON', area.properties.id)
         hideGeoJSON()
       })
     })
@@ -88,11 +88,11 @@ function processAreas (areas) {
 
       elementWatcher.enterViewport(function () {
         flyTo([-73.9414, 40.7703], 11)
-        console.log('showGeoJSON',  'overview')
+        // console.log('showGeoJSON',  'overview')
         showGeoJSON(areas)
       })
       elementWatcher.exitViewport(function () {
-        console.log('hideGeoJSON', 'overview')
+        // console.log('hideGeoJSON', 'overview')
         hideGeoJSON()
       })
     })
@@ -115,7 +115,7 @@ function showGeoJSON (geometry) {
   if (geometry.type !== 'Point') {
     map.getSource('geojson').setData(geometry)
 
-    map.setPaintProperty('geojson', 'line-opacity', 0.8)
+    map.setPaintProperty('geojson', 'line-opacity', 1)
     map.setLayoutProperty('geojson', 'visibility', 'visible')
   }
 }
@@ -219,7 +219,7 @@ map.on('load', function () {
       'visibility': 'none'
     },
     paint: {
-      'line-color': '#ff600b',
+      'line-color': '#4d92b8',
       'line-opacity': 0,
       'line-width': 8,
       'line-opacity-transition': {
