@@ -1,0 +1,15 @@
+{% assign path = '/areas/' | append: area_id %}
+{% assign area = site.areas | where:'id', path | first %}
+<li>
+  <div class="page trigger-area" data-area-id="{{ area_id }}"></div>
+  <a name="{{ area_id }}"></a>
+  <div class="page"></div>
+  <div class="page trigger-geojson" data-area-id="{{ area_id }}"></div>
+  <article>
+    <h2>{{ area.title }}</h2>
+    {{ area.content }}
+  </article>
+  <div class="page trigger-mapwarper" data-area-id="{{ area_id }}" data-map-id="{{ area.map_id }}">
+  </div>
+  <div class="page"></div>
+</li>
