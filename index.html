@@ -1,3 +1,5 @@
+---
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html lang="en">
@@ -6,9 +8,6 @@
   <title>The Changing Shoreline of New York City</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="css/style.css" />
-  <script src="js/promise.min.js"></script>
-  <script src="js/fetch.js"></script>
-  <script src="js/d3.v4.min.js"></script>
   <script src='https://api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
 </head>
@@ -18,13 +17,7 @@
   </div>
   <header>
     <article>
-      <h1>The Changing Shoreline of New York City</h1>
-      <p>
-        The project aims to survey key points along New York City’s shoreline with a particular focus on Manhattan’s waterfront expansion. Historical maps of New York City juxtapose current coastal conditions of the city, revealing dramatic material landmass changes through time which are expressed through subtle contour differentiations mapped by a single line. The street grid of Manhattan, brought into effect by the Commissioners’ Plan of 1811, provokes a hard edged condition insensitive to the many natural ecologies and layered boundaries that Manhattan island once hosted. The plan imposes efficiency and modernity onto the diverse landscape contained in the original outline of the earliest maps of Manhattan, usually obliterating the natural conditions when confronted with a diverse shoreline.
-      </p>
-      <p>
-        In an attempt to destabilize the perception of coastal boundaries in Manhattan today, the stories trace minute accounts of a Manhattan that was in the process of radical transformations. The focus on water further shifts the city imaginary to explore a territory that has been consecutively filled-in, uprooted, and neglected in the expansion of the great metropolis. This guided tour outlines existing programs along the hardened shoreline, a brief history of the site and its past shoreline qualities, as well as future proposals for many of these sites which today face variable urban pressures due to changing climate conditions and urban revitalization developments.
-      </p>
+      {% include header.html %}
     </article>
     <div class="page trigger-overview">
     </div>
@@ -33,19 +26,21 @@
   </header>
   <main>
     <ol id="areas">
-
+      {% for area_id in site.data.areas %}
+        {% include area.html area_id=area_id %}
+      {% endfor %}
     </ol>
   </main>
   <footer>
     <div class="page trigger-overview">
     </div>
     <article>
-      <p>
-        <i>The Changing Shoreline of New York City</i> is a project by Laura Blaszczak and
-        Bert Spaan, and is part of NYPL’s <a href="http://spacetime.nypl.org/">NYC Space/Time Directory</a>.
-      </p>
+      {% include footer.html %}
     </article>
   </footer>
+  <script type="text/javascript">
+    var geojson = {% include areas.geojson %}
+  </script>
   <script src="js/scrollMonitor.js"></script>
   <script src="js/shorelines.js"></script>
 </body>

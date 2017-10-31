@@ -1,0 +1,7 @@
+---
+map_id: 16449
+---
+# North Brother Island
+
+Once an uninhabited island in the East River nesting along the southern coast of the Bronx, North Brother Island undergoes transformations in its public space as a hospital, public gardens, and finally an asylum for young drug addicts. The site is initially acquired by Dutch settler __in the year__, remains uninhabited until the year (year). The hospital (name) is built to (keep) the sick of typhoid concenctraded away from the city mass. In this controlled contaminated environment, order (falls apart) and the island is left barren for the next wave of (sick people). In the words of Frank Lima, a New York City poet who was (put in) the asylum (in one of the later regenerations of the island) of the late 50s, write: (quote from Lima). Today, the site is in architectural ruin and only (specific) personnel can (gain access) to the island. There also has been a recent decline in the number of wading birds spotted on the island, indicating an ecological shift in the (New York City demography of birds).
+

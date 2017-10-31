@@ -26,6 +26,7 @@ p {
 
 article {
   padding: 1em 0;
+  pointer-events: all;
 }
 
 @media (max-width: 750px) {
@@ -59,8 +60,16 @@ p img {
   width: 100%;
 }
 
+main {
+  pointer-events: none;
+}
+
 header, main, footer {
   position: relative;
+}
+
+#table-of-contents {
+  columns: 2;
 }
 
 #areas {

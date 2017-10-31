@@ -1,0 +1,6 @@
+---
+map_id: 16449
+---
+# Rikers Island
+
+The facility reclaims over (number) square feet to fit the current penitentiary, a modern iteration of the heyday at Blackwell’s Island. The name Rikers goes back to Dutch colonial times when the then current mayor Peter Stuyvesant granted the land to a family of farmers. The island sustained at least one household throughout its life as a colonial land appropriated from the native people of Manhattan, and was associated with Queens county until the city consolidated and is now under Bronx jurisdiction. Landfill was redirected to Rikers which ended New York’s ocean dumping that harmed Coney Island and New Jersey shores as well as construction debris from the city’s excavation of subway lines. Much of this labor to manage the site was carried out by prisoners of Rikers Island in the 1890s which at this time had basic prison facilities installed.  The unstable natural state of the island (only half of its original acres reached above the high water mark, and about 7 times that figure was the island defined by a shallow sandbar) was constantly smoldering under the burden of the perpetual overcrowding in the correctional system as well as the dumping that took place to form the island.

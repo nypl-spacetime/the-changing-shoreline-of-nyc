@@ -1,1 +1,0 @@
-#Stuyvesant Town
