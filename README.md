@@ -8,4 +8,4 @@ Visit [spacetime.nypl.org/the-changing-shoreline-of-nyc](http://spacetime.nypl.o
   - the header and footer text can be found in the [`_includes`](_includes) directory;
   - the GeoJSON polygons are in [`_includes/areas.geojson`](_includes/areas.geojson).
 
-- Inspired by [Travel the path of the solar eclipse](https://www.washingtonpost.com/graphics/national/mapping-the-2017-eclipse).
+Inspired by [Travel the path of the solar eclipse](https://www.washingtonpost.com/graphics/national/mapping-the-2017-eclipse).
