@@ -9,6 +9,7 @@ body {
 
 body, #map {
   margin: 0 auto;
+  width: 100%;
   max-width: 750px;
 }
 
@@ -70,6 +71,11 @@ header, main, footer {
 
 #table-of-contents {
   columns: 2;
+  padding: 0;
+}
+
+#table-of-contents li {
+  margin-left: 2em;
 }
 
 #areas {

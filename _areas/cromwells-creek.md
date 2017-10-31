@@ -6,4 +6,4 @@ Cromwell’s Creek, completely filled in by modern infrastructure, used to flow 
 
 ![map of Cromwell's Creek](https://images.nypl.org/index.php?id=1524207&t=w)
 
-https://hiddenwatersblog.wordpress.com/2016/02/18/cromwells-creek-at-yankee-stadium/
+- [Cromwell’s Creek at Yankee Stadium](https://hiddenwatersblog.wordpress.com/2016/02/18/cromwells-creek-at-yankee-stadium/)
