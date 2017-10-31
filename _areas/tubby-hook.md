@@ -1,8 +1,7 @@
 ---
 map_id: 16091
+title: Tubby Hook
 ---
-# Tubby Hook
-
 ![](http://arthistoryreference.com/006/me/509.jpg)
 Victor Gifford Audubon. View of Hudson River. c1843. Oil on canvas. 112 x 175 cm
 

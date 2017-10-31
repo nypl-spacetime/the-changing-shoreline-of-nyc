@@ -300,7 +300,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "mccarren-park"
+        "id": "bushwick-inlet"
       },
       "geometry": {
         "type": "Polygon",
@@ -822,7 +822,7 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "strikers-bay"
+        "id": "strykers-bay"
       },
       "geometry": {
         "type": "Polygon",

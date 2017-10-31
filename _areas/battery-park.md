@@ -1,8 +1,7 @@
 ---
 map_id: 15108
+title: The Battery
 ---
-# The Battery
-
 The beginning of the 19th Century piqued robust development for the Battery as well as the historic coastline of Lower Manhattan to grow into the body of today’s bustling metropolis. The factors that stimulated its growth depend on various pressures of either local, national, or international scale. Most fundamentally being the gateway to the new country, where the bustling metropolis of today originated from, the Battery’s expansions were provided to mediate and protect the new city’s identity as a port city. By this time, the European settlers have implemented piling strategies that reduced the waterfront to a binary condition, a hard city edge snapped to a swelling harbor to fulfill their needs of import/export. Larger moments of landmass acquisition include the southwest expansion of the Battery which was completed in 1811 by landfill. The point advanced in views of both the Hudson and East Rivers. In a different instance that reacted to a more international scale, the Battery expands during the War of 1812 to protect the Buttermilk Channel in the East River. The British never attacked Manhattan during this war, which in New England was regarded as President Madison’s War, a useless war that was brought on by the War Hawks legislature that was prevalent in America’s youth as a freshly independent country.
 
 ![](https://images.nypl.org/index.php?id=5059807&t=w)
