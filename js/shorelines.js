@@ -106,7 +106,7 @@ function fitBounds (bounds) {
   }
 
   map.fitBounds(bounds, {
-    padding: 50
+    padding: 100
   })
 }
 
@@ -127,7 +127,7 @@ function showGeoJSON (geometry) {
   if (geometry.type !== 'Point') {
     map.getSource('geojson').setData(geometry)
 
-    map.setPaintProperty('geojson', 'line-opacity', 1)
+    map.setPaintProperty('geojson', 'line-opacity', 0.6)
     map.setLayoutProperty('geojson', 'visibility', 'visible')
   }
 }
@@ -163,21 +163,16 @@ function showMapWarperMap (mapId) {
       paint: {
         'raster-opacity': 0,
         'raster-opacity-transition': {
-          duration: FADE_MS
+          duration: FADE_MS / 4
         }
       }
     })
 
     map.setPaintProperty('mapwarper', 'raster-opacity', 1)
-    showOpacitySlider()
-    enableMapInteraction()
   }
 }
 
 function hideMapWarperMap (immediately) {
-  hideOpacitySlider()
-  disableMapInteraction()
-
   if (map.getLayer('mapwarper')) {
     map.setPaintProperty('mapwarper', 'raster-opacity', 0)
 
@@ -196,7 +191,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibnlwbGxhYnMiLCJhIjoiSFVmbFM0YyJ9.sl0CRaO71he1
 
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/nypllabs/cj5wa74st78dr2so2bdclte0g',
+  style: 'mapbox://styles/nypllabs/cj9n35rvp33g52srug5gwa98c',
   center: [-73.98579, 40.71571],
   zoom: 14
 })
@@ -209,13 +204,7 @@ map.boxZoom.disable()
 map.dragRotate.disable()
 map.touchZoomRotate.disable()
 
-function showOpacitySlider () {
 
-}
-
-function hideOpacitySlider () {
-
-}
 
 function disableMapInteraction () {
   map.keyboard.disable()
@@ -241,7 +230,7 @@ function enableMapInteraction () {
   navigationControlEnabled = true
 }
 
-disableMapInteraction()
+enableMapInteraction()
 
 map.on('load', function () {
   map.addSource('geojson', {
@@ -259,9 +248,10 @@ map.on('load', function () {
       'visibility': 'none'
     },
     paint: {
-      'line-color': '#4d92b8',
-      'line-opacity': 0,
-      'line-width': 8,
+      'line-color': '#21acf9',
+      // 'line-color': '#CB430E',
+      'line-opacity': 1,
+      'line-width': 2,
       'line-opacity-transition': {
         duration: FADE_MS
       }
@@ -269,4 +259,12 @@ map.on('load', function () {
   })
 
   addScrollListeners()
+})
+
+forEach(document.querySelectorAll('.opacity-slider'), function () {
+  this.addEventListener('input', function () {
+    if (map.getLayer('mapwarper')) {
+      map.setPaintProperty('mapwarper', 'raster-opacity', this.value / 100)
+    }
+  })
 })

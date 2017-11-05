@@ -3,21 +3,30 @@ body {
   margin: 0;
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 19px;
+  font-size: 18px;
   line-height: 1.58;
 }
 
-body, #map {
+body {
   margin: 0 auto;
   width: 100%;
-  max-width: 750px;
+  max-width: 1000px;
+}
+
+#map {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+}
+
+#contents {
+  padding: 4em 1em;
+  box-sizing: border-box;
 }
 
 h1, h2, h3 {
-  padding-top: 1em;
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 1em;
+  padding: 0;
+  margin: 0.25em 0;
 }
 
 p {
@@ -25,9 +34,14 @@ p {
   padding: 1em 0;
 }
 
-article {
-  padding: 1em 0;
+.box {
+  padding: 1em;
+  margin: 1em 0;
   pointer-events: all;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+
+  max-width: 800px;
+  border-radius: 3px;
 }
 
 @media (max-width: 750px) {
@@ -36,13 +50,55 @@ article {
   }
 }
 
-h1, h2, h3 {
-  border-color: #4d92b8;
-  border-width: 8px;
-  border-bottom-style: solid;
+h1 {
+  font-size: 500%;
 }
 
-body, article {
+h2 {
+  font-size: 300%;
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 200%;
+  }
+
+  h2 {
+   font-size: 160%;
+  }
+}
+
+.sticky {
+  top: 10px;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+}
+
+.floating-title {
+  display: inline;
+  max-width: 800px;
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
+
+  padding-bottom: 0.5em;
+
+  background-image: url('../images/waves.svg');
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 3em;
+}
+
+#areas li:nth-child(even) .alternate-sides {
+  float: left;
+}
+
+#areas li:nth-child(odd) .alternate-sides {
+  float: right;
+}
+
+body, .box {
   background-color: #fdfdfd;
 }
 
@@ -50,9 +106,9 @@ body, a, a:visited {
   color: #222;
 }
 
-a, a:visited {
+article a, article a:visited {
   text-decoration: none;
-  border-color: #4d92b8;
+  border-color: #21acf9;
   border-width: 3px;
   border-bottom-style: solid;
 }
@@ -74,6 +130,12 @@ header, main, footer {
   padding: 0;
 }
 
+@media (max-width: 500px) {
+  #table-of-contents {
+    columns: 1;
+  }
+}
+
 #table-of-contents li {
   margin-left: 2em;
 }
@@ -84,9 +146,13 @@ header, main, footer {
   padding: 0;
 }
 
+#areas li {
+  clear: both;
+}
+
 .page {
   width: 100%;
-  height: 110vh;
+  height: 190vh;
   position: relative;
 }
 

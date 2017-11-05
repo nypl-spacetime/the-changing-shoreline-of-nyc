@@ -1,14 +1,20 @@
 {% assign path = '/areas/' | append: area_id %}
 {% assign area = site.areas | where:'id', path | first %}
 <li>
-  <div class="page trigger-area" data-area-id="{{ area_id }}"></div>
-  <a name="{{ area_id }}"></a>
-  <div class="page"></div>
-  <div class="page trigger-geojson" data-area-id="{{ area_id }}"></div>
-  <article>
-    <h2>{{ area.title }}</h2>
+  <div>
+    <div class="page trigger-area trigger-geojson" data-area-id="{{ area_id }}">
+      <a name="{{ area_id }}"><h2 class="alternate-sides sticky floating-title">{{ area.title }}</h2></a>
+    </div>
+  </div>
+  <article class="box alternate-sides">
     {{ area.output }}
+    <div class="waves"></div>
   </article>
-  <div class="page trigger-mapwarper" data-area-id="{{ area_id }}" data-map-id="{{ area.map_id }}"></div>
+  <div class="page trigger-mapwarper" data-area-id="{{ area_id }}" data-map-id="{{ area.map_id }}">
+    <div class="box sticky alternate-sides">
+      Viewing map, <a href="https://maps.nypl.org/warper/maps/{{ area.map_id }}">open in Map Warper</a>
+      <input class="opacity-slider" type="range" value="100" min="0" max="100">
+    </div>
+  </div>
   <div class="page"></div>
 </li>

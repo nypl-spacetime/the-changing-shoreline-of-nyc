@@ -15,29 +15,34 @@
   <div id="map-container">
     <div id="map"></div>
   </div>
-  <header>
-    <article>
-      {% include header.html %}
-    </article>
-    <div class="page trigger-overview">
-    </div>
-    <div class="page">
-    </div>
-  </header>
-  <main>
-    <ol id="areas">
-      {% for area_id in site.data.areas %}
-        {% include area.html area_id=area_id %}
-      {% endfor %}
-    </ol>
-  </main>
-  <footer>
-    <div class="page trigger-overview">
-    </div>
-    <article>
-      {% include footer.html %}
-    </article>
-  </footer>
+  <div id="contents">
+    <header>
+      <div class="floating-title">
+        <h1>The Changing Shoreline of New York City</h1>
+      </div>
+      <article class="box">
+        {% include header.html %}
+      </article>
+      <div class="page trigger-overview">
+      </div>
+      <div class="page">
+      </div>
+    </header>
+    <main>
+      <ol id="areas">
+        {% for area_id in site.data.areas %}
+          {% include area.html area_id=area_id %}
+        {% endfor %}
+      </ol>
+    </main>
+    <footer>
+      <div class="page trigger-overview">
+      </div>
+      <article class="box">
+        {% include footer.html %}
+      </article>
+    </footer>
+  </div>
   <script type="text/javascript">
     var geojson = {% include areas.geojson %}
   </script>

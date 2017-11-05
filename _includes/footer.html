@@ -1,1 +1,15 @@
-<i>The Changing Shoreline of New York City</i> is a project by <a>Laura Blaszczak</a> and <a href="https://twitter.com/bertspaan">Bert Spaan</a>, and is part of NYPL’s <a href="http://spacetime.nypl.org/">NYC Space/Time Directory</a>.
+<p>
+  Table of contents:
+</p>
+<ol id="table-of-contents">
+  {% for area_id in site.data.areas %}
+    {% assign path = '/areas/' | append: area_id %}
+    {% assign area = site.areas | where:'id', path | first %}
+  <li>
+    <a href="#{{ area_id }}">{{ area.title }}</a>
+  </li>
+  {% endfor %}
+</ol>
+<p>
+  <i>The Changing Shoreline of New York City</i> is a project by <a>Laura Blaszczak</a> and <a href="https://twitter.com/bertspaan">Bert Spaan</a>, and is part of NYPL’s <a href="http://spacetime.nypl.org/">NYC Space/Time Directory</a>.
+</p>
