@@ -7,12 +7,14 @@
     </div>
   </div>
   <article class="box alternate-sides">
+    <div>
     {{ area.output }}
+    </div>
     <div class="waves"></div>
   </article>
   <div class="page trigger-mapwarper" data-area-id="{{ area_id }}" data-map-id="{{ area.map_id }}">
     <div class="box sticky alternate-sides">
-      Viewing map, <a href="https://maps.nypl.org/warper/maps/{{ area.map_id }}">open in Map Warper</a>
+      Viewing map <a href="https://maps.nypl.org/warper/maps/{{ area.map_id }}"><i>{{ area.map_title }}</i></a>
       <input class="opacity-slider" type="range" value="100" min="0" max="100">
     </div>
   </div>

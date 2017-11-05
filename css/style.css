@@ -31,7 +31,11 @@ h1, h2, h3 {
 
 p {
   margin: 0;
-  padding: 1em 0;
+  padding-bottom: 1em;
+}
+
+p:last-child {
+  padding: 0;
 }
 
 .box {
@@ -51,6 +55,10 @@ p {
   article {
     padding: 1em;
   }
+}
+
+h1, h2 {
+  font-family: 'Neuton', serif;
 }
 
 h1 {
@@ -83,14 +91,26 @@ h2 {
 .floating-title {
   display: inline;
   max-width: 800px;
-  text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
+  text-shadow: 2px 2px rgba(255, 255, 255, 0.3);
 
-  padding-bottom: 0.5em;
+  padding-bottom: 20px;
 
   background-image: url('../images/waves.svg');
   background-position: left bottom;
   background-repeat: repeat-x;
-  background-size: 3em;
+  background-size: 2em;
+}
+
+.waves {
+  width: 233px;
+  height: 27px;
+  padding: 10px;
+  margin: 0 auto;
+
+  background-image: url('../images/waves.svg');
+  background-position: left bottom;
+  background-repeat: repeat-x;
+  background-size: 100px;
 }
 
 #areas li:nth-child(even) .alternate-sides {
