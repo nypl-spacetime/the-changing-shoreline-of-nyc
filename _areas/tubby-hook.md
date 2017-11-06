@@ -1,5 +1,9 @@
 ---
-map_id: 16091
+map:
+  id: 16091
+  title: Preliminary Map of the Commissioners of Washington Heights
+  uuid: baa8b48a-d8da-1066-e040-e00a180661dc
+  year: 1860
 title: Tubby Hook
 ---
 ![](http://arthistoryreference.com/006/me/509.jpg)

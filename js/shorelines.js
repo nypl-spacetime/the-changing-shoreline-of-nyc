@@ -1,4 +1,5 @@
 var FADE_MS = 1000
+var MAX_GEOJSON_OPACITY = 0.85
 
 function polygonToBounds (polygon) {
   var outerRing = polygon.coordinates[0]
@@ -127,7 +128,7 @@ function showGeoJSON (geometry) {
   if (geometry.type !== 'Point') {
     map.getSource('geojson').setData(geometry)
 
-    map.setPaintProperty('geojson', 'line-opacity', 0.6)
+    map.setPaintProperty('geojson', 'line-opacity', MAX_GEOJSON_OPACITY)
     map.setLayoutProperty('geojson', 'visibility', 'visible')
   }
 }
@@ -248,14 +249,50 @@ map.on('load', function () {
       'visibility': 'none'
     },
     paint: {
-      'line-color': '#21acf9',
+      'line-color': '#F99B21',
       // 'line-color': '#CB430E',
-      'line-opacity': 1,
-      'line-width': 2,
+      'line-opacity': MAX_GEOJSON_OPACITY,
+      'line-width': {
+        base: 1,
+        stops: [
+          [
+            12,
+            4
+          ],
+          [
+            15,
+            30
+          ]
+        ]
+      },
       'line-opacity-transition': {
         duration: FADE_MS
       }
     }
+  })
+
+  map.addLayer({
+    id: 'geojson-fill',
+    type: 'fill',
+    source: 'geojson',
+    layout: {},
+    paint: {
+      'fill-color': '#F99B21',
+      'fill-opacity': 0.1
+    }
+  })
+
+  map.on('click', 'geojson-fill', function (e) {
+    var areaId = e.features[0].properties.id
+    document.getElementById(areaId).scrollIntoView()
+  })
+
+  map.on('mouseenter', 'geojson-fill', function () {
+    map.getCanvas().style.cursor = 'pointer'
+  })
+
+  map.on('mouseleave', 'geojson-fill', function () {
+    map.getCanvas().style.cursor = ''
   })
 
   addScrollListeners()

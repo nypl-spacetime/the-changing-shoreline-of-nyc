@@ -1,5 +1,9 @@
 ---
-map_id: 7793
+map:
+  id: 7793
+  title: Atlas of the city of New York
+  uuid: 510d47e2-098e-a3d9-e040-e00a18064a99
+  year: 1885
 title: Battery Park City
 ---
 Envisioned as a residential area for professionals working in the Financial District, Battery Park City sits on an artificial appendage of New York City and hosts mostly family dwellers who can afford the expensive high rise apartments there. Since the 1980s when the plan to build the new addition to city emerged, many of the public space amenities Battery Park City projected at first were slowly taken up by buildings to house new residents. The project encountered New York in a fiscally stagnant time and determined to vitalize the Financial District. Proposals to hit the ground running in turn proved flat for some time. Consequently, artists and artist collectives interevened at the landfill site, one such being Creative Time's inaugural "Art on the Beach" that featured site specific installations by artists or Agnes Dennis's "Wheatfield" which has produced stunning documentation of a gold wheatfield with downtown New York as the background.

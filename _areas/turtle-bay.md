@@ -1,5 +1,9 @@
 ---
-map_id: 9248
+map:
+  id: 9248
+  uuid: 510d47e2-68f2-a3d9-e040-e00a18064a99
+  title: Maps of farms commonly called the Blue book
+  year: 1815
 title: Turtle Bay
 ---
 ![Turtle Bay in the mid 19th Century](https://images.nypl.org/index.php?id=424333&t=w)

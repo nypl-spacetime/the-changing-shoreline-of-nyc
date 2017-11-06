@@ -1,7 +1,9 @@
 ---
-map_id: 27682
-uuid: ef689d50-0b74-0132-e1d5-58d385a7b928
-map_title: G. W. Bromley & Co.'s Atlas of the Entire City of New York (1879)
+map:
+  id: 27682
+  uuid: ef689d50-0b74-0132-e1d5-58d385a7b928
+  title: Atlas of the Entire City of New York
+  year: 1879
 title: Marble Hill
 ---
 Related to the Spuyten Duyvil Creek, Marble Hill played a role in the shaping of the northern tip of Manhattan as we know it today. The Harlem River Ship Canal, a massive vision that was bound to fulfill many ship-goers dreams, executed an awesome feat during the late 19th Century. The land mass of Marble Hill originally connected to the eastern most part of the northern tip of Manhattan, today where Columbia University Bakers Field is located and Broadway extends to the Bronx. The bulging appendage posed an obstacle for many maritime voyages as the Spuyten Duyvil Creek was already uncompromising enough. Finally with government support and a company’s work force, the Harlem River Ship Canal blasted through the crevice in 1895 that just barely joined Marble Hill with Manhattan and created a creek wide enough for ships to pass through from the Harlem River and onto the Hudson.

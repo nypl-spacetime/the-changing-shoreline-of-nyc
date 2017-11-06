@@ -1,5 +1,9 @@
 ---
-map_id: 16429
+map:
+  id: 16429
+  title: Map of New York City from Battery to 29th street
+  uuid: 5c4c1ab0-f161-0130-a353-58d385a7b928
+  year: 1891
 title: Stuyvesant Town
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

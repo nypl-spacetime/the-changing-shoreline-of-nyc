@@ -3,7 +3,9 @@
 <li>
   <div>
     <div class="page trigger-area trigger-geojson" data-area-id="{{ area_id }}">
-      <a name="{{ area_id }}"><h2 class="alternate-sides sticky floating-title">{{ area.title }}</h2></a>
+      <a name="{{ area_id }}" id="{{ area_id }}" class="pointer-events">
+        <h2 class="alternate-sides sticky floating-title">{{ area.title }}</h2>
+      </a>
     </div>
   </div>
   <article class="box alternate-sides">
@@ -12,9 +14,9 @@
     </div>
     <div class="waves"></div>
   </article>
-  <div class="page trigger-mapwarper" data-area-id="{{ area_id }}" data-map-id="{{ area.map_id }}">
+  <div class="page trigger-mapwarper" data-area-id="{{ area_id }}" data-map-id="{{ area.map.id }}">
     <div class="box sticky alternate-sides">
-      Viewing map <a href="https://maps.nypl.org/warper/maps/{{ area.map_id }}"><i>{{ area.map_title }}</i></a>
+      Viewing “<a href="http://digitalcollections.nypl.org/items/{{ area.map.uuid }}"><i>{{ area.map.title }} ({{ area.map.year }})</i></a>”. Change opacity:
       <input class="opacity-slider" type="range" value="100" min="0" max="100">
     </div>
   </div>

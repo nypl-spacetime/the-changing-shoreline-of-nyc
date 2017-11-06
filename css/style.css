@@ -3,7 +3,7 @@ body {
   margin: 0;
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.58;
 }
 
@@ -24,6 +24,16 @@ body {
   box-sizing: border-box;
 }
 
+#title {
+  max-width: 800px;
+  margin-bottom: 3em;
+}
+
+#title h1 {
+  line-height: 1.2;
+  background-size: 120px;
+}
+
 h1, h2, h3 {
   padding: 0;
   margin: 0.25em 0;
@@ -41,7 +51,6 @@ p:last-child {
 .box {
   padding: 1em;
   margin: 1em 0;
-  pointer-events: all;
   max-width: 800px;
 
   /*box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);*/
@@ -102,12 +111,12 @@ h2 {
 }
 
 .waves {
-  width: 233px;
+  width: 100%;
+  box-sizing: border-box;
   height: 27px;
-  padding: 10px;
-  margin: 0 auto;
+  margin-top: 1em;
 
-  background-image: url('../images/waves.svg');
+  background-image: url('../images/waves-thin.svg');
   background-position: left bottom;
   background-repeat: repeat-x;
   background-size: 100px;
@@ -140,12 +149,13 @@ p img {
   width: 100%;
 }
 
-main {
+header, main, footer {
+  position: relative;
   pointer-events: none;
 }
 
-header, main, footer {
-  position: relative;
+.box, .pointer-events {
+  pointer-events: all;
 }
 
 #table-of-contents {
