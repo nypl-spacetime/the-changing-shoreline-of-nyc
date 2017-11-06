@@ -198,6 +198,7 @@ var map = new mapboxgl.Map({
 })
 
 var navigationControl = new mapboxgl.NavigationControl()
+
 var navigationControlEnabled = false
 
 map.scrollZoom.disable()
@@ -225,7 +226,7 @@ function enableMapInteraction () {
   map.dragPan.enable()
 
   if (!navigationControlEnabled) {
-    map.addControl(navigationControl)
+    map.addControl(navigationControl, 'bottom-right')
   }
 
   navigationControlEnabled = true

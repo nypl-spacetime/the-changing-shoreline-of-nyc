@@ -62,7 +62,7 @@ p:last-child {
 
 @media (max-width: 750px) {
   article {
-    padding: 1em;
+    padding: 10px;
   }
 }
 
