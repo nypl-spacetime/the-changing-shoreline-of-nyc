@@ -16,22 +16,25 @@
   <div id="map-container">
     <div id="map"></div>
   </div>
-  <div id="contents">
+  <article>
     <header>
-      <div id="title" class="pointer-events">
-        <h1 class="floating-title">The Changing Shoreline of New York City</h1>
-      </div>
-      <article class="box">
-        Scroll down to explore how New York City's shoreline grew throughout the centuries,
-        and view maps from the New York Public Library's collection of maps.
-      </article>
-      <div class="page">
-      </div>
-      <article class="box">
-        {% include header.html %}
-      </article>
       <div class="page trigger-overview">
+      <div id="title" class="pointer-events sticky">
+        <h1 class="wavy">The Changing Shoreline of New York City</h1>
+
+
       </div>
+      <!-- <section class="box">
+        <p>
+          Scroll down to explore how New York City's shoreline grew throughout the centuries,
+          and view maps from the New York Public Library's collection of maps.
+        </p>
+      </section> -->
+
+      </div>
+      <section class="box">
+        {% include header.html %}
+      </section>
       <div class="page">
       </div>
     </header>
@@ -45,11 +48,11 @@
     <footer>
       <div class="page trigger-overview">
       </div>
-      <article class="box">
+      <section class="box">
         {% include footer.html %}
-      </article>
+      </section>
     </footer>
-  </div>
+  </article>
   <script type="text/javascript">
     var geojson = {% include areas.geojson %}
   </script>

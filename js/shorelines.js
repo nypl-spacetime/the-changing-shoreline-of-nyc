@@ -64,7 +64,7 @@ function addScrollListeners () {
     }
 
     elementWatcher.enterViewport(function () {
-      showGeoJSON(feature.geometry)
+      highlightArea(feature.properties.id)
     })
 
     elementWatcher.exitViewport(function () {
@@ -92,7 +92,7 @@ function addScrollListeners () {
 
     elementWatcher.enterViewport(function () {
       flyTo([-73.9414, 40.7703], 11)
-      showGeoJSON(geojson)
+      highlightArea()
     })
 
     elementWatcher.exitViewport(function () {
@@ -107,7 +107,8 @@ function fitBounds (bounds) {
   }
 
   map.fitBounds(bounds, {
-    padding: 100
+    padding: 100,
+    maxZoom: 16
   })
 }
 
@@ -120,25 +121,22 @@ function flyTo (center, zoom) {
 
 var geojsonTimeout
 
-function showGeoJSON (geometry) {
+function highlightArea (areaId) {
   if (geojsonTimeout) {
     clearTimeout(geojsonTimeout)
   }
 
-  if (geometry.type !== 'Point') {
-    map.getSource('geojson').setData(geometry)
-
-    map.setPaintProperty('geojson', 'line-opacity', MAX_GEOJSON_OPACITY)
-    map.setLayoutProperty('geojson', 'visibility', 'visible')
+  if (areaId) {
+    map.setFilter('geojson', ['==', 'id', areaId])
+  } else {
+    map.setFilter('geojson', ['!=', 'id', ''])
   }
+
+  map.setPaintProperty('geojson', 'line-opacity', MAX_GEOJSON_OPACITY)
 }
 
 function hideGeoJSON () {
   map.setPaintProperty('geojson', 'line-opacity', 0)
-  geojsonTimeout = setTimeout(function() {
-    geojsonTimeout = undefined
-    map.setLayoutProperty('geojson', 'visibility', 'none')
-  }, FADE_MS)
 }
 
 function showMapWarperMap (mapId) {
@@ -206,8 +204,6 @@ map.boxZoom.disable()
 map.dragRotate.disable()
 map.touchZoomRotate.disable()
 
-
-
 function disableMapInteraction () {
   map.keyboard.disable()
   map.doubleClickZoom.disable()
@@ -246,30 +242,23 @@ map.on('load', function () {
     source: 'geojson',
     layout: {
       'line-join': 'round',
-      'line-cap': 'round',
-      'visibility': 'none'
+      'line-cap': 'round'
     },
     paint: {
-      'line-color': '#F99B21',
-      // 'line-color': '#CB430E',
+      'line-color': '#f99b21',
       'line-opacity': MAX_GEOJSON_OPACITY,
       'line-width': {
         base: 1,
         stops: [
-          [
-            12,
-            4
-          ],
-          [
-            15,
-            30
-          ]
+          [12, 4],
+          [15, 20]
         ]
       },
       'line-opacity-transition': {
         duration: FADE_MS
       }
-    }
+    },
+    filter: ['!=', 'id', '']
   })
 
   map.addLayer({
@@ -279,7 +268,7 @@ map.on('load', function () {
     layout: {},
     paint: {
       'fill-color': '#F99B21',
-      'fill-opacity': 0.1
+      'fill-opacity': 0.05
     }
   })
 

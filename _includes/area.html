@@ -3,21 +3,32 @@
 <li>
   <div>
     <div class="page trigger-area trigger-geojson" data-area-id="{{ area_id }}">
-      <a name="{{ area_id }}" id="{{ area_id }}" class="pointer-events">
-        <h2 class="alternate-sides sticky floating-title">{{ area.title }}</h2>
-      </a>
+      <div class="sticky centered">
+        <div class="title-container">
+          <h2 class="wavy">
+            <a name="{{ area_id }}" id="{{ area_id }}" class="pointer-events">
+              {{ area.title }}
+            </a>
+          </h2>
+        </div>
+      </div>
     </div>
   </div>
-  <article class="box alternate-sides">
+  <section class="box">
+    <!-- <ol class="page-controls">
+      <li>1</li>
+      Go back to <a href="#">the top</a>, or to <a href="#table-of-contents">the table of contents</a>.
+    </ol> -->
     <div>
     {{ area.output }}
     </div>
     <div class="waves"></div>
-  </article>
+  </section>
   <div class="page trigger-mapwarper" data-area-id="{{ area_id }}" data-map-id="{{ area.map.id }}">
-    <div class="box sticky alternate-sides">
-      Viewing “<a href="http://digitalcollections.nypl.org/items/{{ area.map.uuid }}"><i>{{ area.map.title }} ({{ area.map.year }})</i></a>”. Change opacity:
-      <input class="opacity-slider" type="range" value="100" min="0" max="100">
+    <div class="box sticky">
+      <p>
+        Viewing “<a href="http://digitalcollections.nypl.org/items/{{ area.map.uuid }}"><i>{{ area.map.title }} ({{ area.map.year }})</i></a>”. Change opacity: <input class="opacity-slider" type="range" value="100" min="0" max="100">
+      </p>
     </div>
   </div>
   <div class="page"></div>
