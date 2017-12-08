@@ -8,7 +8,7 @@ title: Bushwick Inlet
 ---
 Under the green lawns and ball parks of McCarren Park in Greenpoint today lies the remains of sediment from which originated waterways flowing out of Brooklyn and into the East River years ago. In 1645 when the first settlers arrived and acquired the land from the Lenape, two streams could be found as crossroads in a landscape long removed by modern society. They converge at a local salt marsh exactly located at the site of McCarren Park today, which provided diverse ecological functions to the surrounding Brooklyn area and regulated the land's natural hydrology. Bushwick Creek, in Dutch known as Boswijck or 'little town in the woods', was part of a larger shoreline condition that defined much of north Brooklyn's egde at the East River and connected farmland production to markets in Manhattan.   
 
-https://images.nypl.org/index.php?id=53889&t=w
+![](https://images.nypl.org/index.php?id=53889&t=w)
 
 Ship buidling of the USS Monitor took 101 days to complete and launched from Bushwick Inlet in 1862 to battle the Confederate Navy in Civil War history
 
