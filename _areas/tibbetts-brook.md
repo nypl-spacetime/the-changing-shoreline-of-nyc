@@ -6,10 +6,10 @@ map:
   year: 1874
 title: Tibbett’s Brook
 ---
-Today, this part of Tibbett’s Brook flows under city street as it was channeled underground in the late (date). The Brook resurfaces in Van Cortlandt Park and enters Van Cortlandt Lake. The lake was formed in 1699 when the Van Cortlandt estate built a dam to provide power for their sawmill, a popular form of economic growth in the 18th century. The Park and lake today are the only remnants of native New York forestry that could have been found in the pre colonial era. Projects to daylight, or expose the water to the aboveground, the Brook provide interesting prospects to connect city parks together and relieve the city sewer system of CSOs (Combined Sewage Overflow) during storms.
 
-More information:
+![](https://images.nypl.org/index.php?id=1509469&t=w)
 
-- [Tibbetts Brook: Raising A Buried Stream in the Bronx, NYC](http://untappedcities.com/2016/02/24/tibbetts-brook-raising-a-stream-in-nyc/)
+Today, this part of Tibbett’s Brook flows under city streets as it was channeled underground in the late 18th century. Early on in New York history the brook would provide water and transportation to settlers along the edge of the water, however, as the population grew, the brook was seen as an obstacle. It was replaced by modern infrastructures and buried underground. Today, the brook resurfaces in Van Cortlandt Park and enters Van Cortlandt Lake. The lake was formed in 1699 when the Van Cortlandt estate built a dam to provide power for their sawmill, a popular form of economic growth in the 18th century. The park and lake today are the only remnants of native New York forestry that could have been found in the pre colonial era. Projects to daylight the brook, or expose the water to the aboveground, provide interesting prospects to connect city parks together and relieve the city sewer system of CSOs (Combined Sewage Overflow) during storms. The brook currently is streamlined with the sewer system and since the waterbody is alive and moving, it supplies an influx of water that is overwhelming to the wastewater treament infrastructure. This causes raw sewage to be expelled into the Harlem River on particularly rainy days and improper drainage for the park upstream. 
+
 
 
