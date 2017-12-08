@@ -10,7 +10,7 @@ In 1695, colonial settlers stumble upon two companion islands in the East River 
 
 ![](https://images.nypl.org/index.php?id=732095F&t=w)
 
-Riverside Hospital photographed on North Brother Island in 1937
+[Riverside Hospital](https://digitalcollections.nypl.org/items/510d47dd-9b44-a3d9-e040-e00a18064a99) photographed on North Brother Island in 1937
 
 In the 1950s, when the city reclaims the island, Riverside Hospital accomodates a growing population of young people affected by a narcotics epidemic in New York City. Frank Lima, New York City poet born in Spanish Harlem, was a former patient in the rehabilitation program there and notes that the island "was one hell of an experience. We made up the laws and rules. It was a pathological zoo." In the midst of all this chaos, Lima is encouraged to continue his poetry by fellow artist and mentor Sherman Drexler who would teach painting to the youth in the facility. Both figures are indicative of the larger art scene in New York City at the time and more peripherally the drug addictions that became popular within their circles and more widespread throughout the city. The island also reappears in a number of fictional literature works including Tennessee Williams's 'Moise and the World of Reason' and Evan Hunter's short story "Happy New Year, Herbie." The institution is abandonned in the 1960s. Today, the site is in architectural ruin, Riverside Hospital decaying and hollow, and only authorized personnel has access to the island. There also has been a recent decline in the number of wading birds spotted on the island, indicating an ecological shift in the New York City demography of birds.
 
