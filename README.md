@@ -2,6 +2,8 @@
 
 Visit [spacetime.nypl.org/the-changing-shoreline-of-nyc](http://spacetime.nypl.org/the-changing-shoreline-of-nyc).
 
+[![The Changing Shoreline of New York City](images/screenshot.png)](http://spacetime.nypl.org/the-changing-shoreline-of-nyc)
+
 ## Making changes
 
   - the areas (and their properties) can be found in the [`_areas`](_areas) directory;
