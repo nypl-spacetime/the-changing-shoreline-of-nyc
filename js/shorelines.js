@@ -274,6 +274,9 @@ map.on('load', function () {
 
   map.on('click', 'geojson-fill', function (e) {
     var areaId = e.features[0].properties.id
+
+    // TODO: only if all areas are shown!!!
+
     document.getElementById(areaId).scrollIntoView()
   })
 

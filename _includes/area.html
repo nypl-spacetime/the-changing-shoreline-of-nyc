@@ -1,6 +1,6 @@
 {% assign path = '/areas/' | append: area_id %}
 {% assign area = site.areas | where:'id', path | first %}
-<li>
+<li class="area">
   <div>
     <div class="page trigger-area trigger-geojson" data-area-id="{{ area_id }}">
       <div class="sticky centered">
@@ -15,20 +15,21 @@
     </div>
   </div>
   <section class="box">
-    <!-- <ol class="page-controls">
-      <li>1</li>
-      Go back to <a href="#">the top</a>, or to <a href="#table-of-contents">the table of contents</a>.
-    </ol> -->
-    <div>
+    <div class="box-contents">
     {{ area.output }}
     </div>
-    <div class="waves"></div>
+    <div class="page-controls">
+      <a href="#"><span>⟵ </span><span class="link">Back to top</span></a>
+      <a href="#table-of-contents"><span class="link">Table of contents</span><span> ⟶</span></a>
+    </div>
   </section>
   <div class="page trigger-mapwarper" data-area-id="{{ area_id }}" data-map-id="{{ area.map.id }}">
     <div class="box sticky">
-      <p>
-        Viewing “<a href="http://digitalcollections.nypl.org/items/{{ area.map.uuid }}"><i>{{ area.map.title }} ({{ area.map.year }})</i></a>”. Change opacity: <input class="opacity-slider" type="range" value="100" min="0" max="100">
-      </p>
+      <div class="box-contents">
+        <p>
+          Map: <a href="http://digitalcollections.nypl.org/items/{{ area.map.uuid }}"><i>{{ area.map.title }} ({{ area.map.year }})</i></a>, opacity: <input class="opacity-slider" type="range" value="100" min="0" max="100">
+        </p>
+      </div>
     </div>
   </div>
   <div class="page"></div>

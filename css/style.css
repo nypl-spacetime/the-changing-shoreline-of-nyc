@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
   width: 100%;
   max-width: 1000px;
+  font-size: 1.3rem;
 }
 
 #map {
@@ -22,7 +23,7 @@ body {
 }
 
 article {
-  padding: 4em 1em;
+  padding: 4em 10px;
   box-sizing: border-box;
 }
 
@@ -41,20 +42,14 @@ h1, h2, h3 {
   margin: 0.25em 0;
 }
 
-p {
-  font-size: 1.4rem;
-}
-
-p {
+p, ul, li {
   margin: 0;
-
   line-height: 2rem;
   margin-bottom: 1.4rem;
   padding-right: 0;
-  /*vertical-align: baseline;*/
 }
 
-p:last-child {
+.box-contents > *:last-child {
   margin: 0;
 }
 
@@ -69,8 +64,20 @@ p:last-child {
   box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.1);
 }
 
+figcaption {
+  text-align: center;
+}
+
 @media (max-width: 750px) {
   section {
+    padding: 5px;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  .box {
     padding: 10px;
   }
 }
@@ -80,16 +87,17 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 600%;
-}
-
-h2 {
   font-size: 500%;
 }
 
+h2 {
+  font-size: 400%;
+}
+
 @media (max-width: 750px) {
-  h1 {
+  #title h1 {
     font-size: 200%;
+    background-size: 60px;
   }
 
   h2 {
@@ -99,6 +107,7 @@ h2 {
 
 .sticky {
   top: 10px;
+  padding: 20px;
   position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
@@ -136,15 +145,15 @@ h2 {
   background-size: 100px;
 }
 
-#areas li {
+.box {
   max-width: 650px;
 }
 
-#areas li:nth-child(even) {
+#areas li.area:nth-child(even) {
   float: left;
 }
 
-#areas li:nth-child(odd) {
+#areas li.area:nth-child(odd) {
   float: right;
 }
 
@@ -156,14 +165,14 @@ body, a, a:visited {
   color: #222;
 }
 
-section a, section a:visited {
+section a, section a:visited, .link {
   text-decoration: none;
   border-color: #21acf9;
   border-width: 3px;
   border-bottom-style: solid;
 }
 
-p img {
+.box-contents img {
   width: 100%;
 }
 
@@ -225,11 +234,22 @@ header, main, footer {
 }
 
 .page-controls {
-  position: absolute;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  /*position: absolute;
+  list-style-type: none;*/
+  /*margin: 0;*/
+  /*padding: 0;*/
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.page-controls > * {
+  margin: 0 0.5em;
+  margin-top: 10px;
+}
+
+.page-controls a {
+  border: none;
 }
 
 .page-controls li {

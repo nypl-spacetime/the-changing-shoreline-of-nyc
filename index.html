@@ -21,8 +21,6 @@
       <div class="page trigger-overview">
       <div id="title" class="pointer-events sticky">
         <h1 class="wavy">The Changing Shoreline of New York City</h1>
-
-
       </div>
       <!-- <section class="box">
         <p>
@@ -54,7 +52,17 @@
     </footer>
   </article>
   <script type="text/javascript">
-    var geojson = {% include areas.geojson %}
+    var areas = {{ site.data.areas | jsonify }}
+
+    var allGeojson = {% include areas.geojson %}
+    var geojson = {
+      type: 'FeatureCollection',
+      features: allGeojson.features.filter(function (feature) {
+        return areas.indexOf(feature.properties.id) >= 0
+      })
+    }
+
+    allGeojson = undefined
   </script>
   <script src="js/scrollMonitor.js"></script>
   <script src="js/shorelines.js"></script>
