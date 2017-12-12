@@ -1,6 +1,10 @@
 var FADE_MS = 1000
 var MAX_GEOJSON_OPACITY = 0.85
 
+var overviewShown = true
+
+var dragPanEnabled = true
+
 function polygonToBounds (polygon) {
   var outerRing = polygon.coordinates[0]
 
@@ -96,14 +100,14 @@ function addScrollListeners () {
     var elementWatcher = scrollMonitor.create(this)
 
     elementWatcher.enterViewport(function () {
-      showPopup = true
+      overviewShown = true
       flyTo([-73.9414, 40.7703], 11)
       highlightArea()
     })
 
     elementWatcher.exitViewport(function () {
       hideGeoJSON()
-      showPopup = false
+      overviewShown = false
     })
 
     watchers.push(elementWatcher)
@@ -219,9 +223,22 @@ map.boxZoom.disable()
 map.dragRotate.disable()
 map.touchZoomRotate.disable()
 
+map.dragRotate.disable()
+
 map.keyboard.enable()
 map.doubleClickZoom.enable()
-map.dragPan.enable()
+
+function enableDragPan () {
+  dragPanEnabled = true
+  map.dragPan.enable()
+}
+
+function disableDragPan () {
+  dragPanEnabled = false
+  map.dragPan.disable()
+}
+
+enableDragPan()
 
 map.addControl(navigationControl, 'bottom-right')
 
@@ -229,7 +246,6 @@ var popup = new mapboxgl.Popup({
   closeButton: false,
   closeOnClick: false
 })
-var showPopup = true
 
 map.on('load', function () {
   map.addSource('geojson', {
@@ -276,7 +292,7 @@ map.on('load', function () {
   map.on('mouseenter', 'geojson-fill', function (event) {
     map.getCanvas().style.cursor = 'pointer'
 
-    if (showPopup) {
+    if (overviewShown) {
       var areaId = event.features[0].properties.id
 
       popup.setLngLat(event.lngLat)
@@ -291,6 +307,10 @@ map.on('load', function () {
   })
 
   map.on('click', 'geojson-fill', function (event) {
+    if (!overviewShown) {
+      return
+    }
+
     removeScrollListeners()
     popup.remove()
 
@@ -321,3 +341,44 @@ forEach(document.querySelectorAll('.opacity-slider'), function () {
     }
   })
 })
+
+function PanControl() { }
+
+PanControl.prototype.onAdd = function (map) {
+  this._map = map
+  this._container = document.createElement('div')
+  this._container.className = 'mapboxgl-ctrl mapboxgl-ctrl-group'
+
+  var button = document.createElement('button')
+
+  button.className = 'mapboxgl-ctrl-icon'
+  button.style.backgroundImage = 'url(images/arrows-ns.svg)'
+
+  button.setAttribute('aria-label', 'Toggle map panning')
+
+  button.addEventListener('click', function () {
+    if (dragPanEnabled) {
+      disableDragPan()
+      button.style.backgroundImage = 'url(images/arrows-ns.svg)'
+    } else {
+      enableDragPan()
+      button.style.backgroundImage = 'url(images/arrows-nswe.svg)'
+    }
+  })
+
+  this._container.appendChild(button)
+
+  return this._container
+}
+
+PanControl.prototype.onRemove = function () {
+  this._container.parentNode.removeChild(this._container)
+  this._map = undefined
+}
+
+var panControl = new PanControl()
+
+if ('ontouchstart' in window) {
+  disableDragPan()
+  map.addControl(panControl, 'bottom-right')
+}

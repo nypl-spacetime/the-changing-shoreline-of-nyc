@@ -258,6 +258,10 @@ header, main, footer {
   margin-left: 2em;
 }
 
+.mapboxgl-ctrl-group > button.mapboxgl-ctrl-compass {
+  display: none;
+}
+
 .mapboxgl-popup-content {
   padding: 1em;
   font-size: 14px;
@@ -265,15 +269,16 @@ header, main, footer {
 }
 
 @media (max-width: 750px) {
-  #title h1 {
+  h1.wavy {
     font-size: 250%;
     background-size: 80px;
     line-height: 1.8;
   }
 
-  h2 {
-   font-size: 200%;
-   background-size: 60px;
+  h2.wavy {
+    font-size: 200%;
+    background-size: 65px;
+    line-height: 1.8;
   }
 
   .indent {
