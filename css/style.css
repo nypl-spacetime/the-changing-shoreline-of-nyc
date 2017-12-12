@@ -258,6 +258,12 @@ header, main, footer {
   margin-left: 2em;
 }
 
+.mapboxgl-popup-content {
+  padding: 1em;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 @media (max-width: 750px) {
   #title h1 {
     font-size: 250%;

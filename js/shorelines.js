@@ -96,12 +96,14 @@ function addScrollListeners () {
     var elementWatcher = scrollMonitor.create(this)
 
     elementWatcher.enterViewport(function () {
+      showPopup = true
       flyTo([-73.9414, 40.7703], 11)
       highlightArea()
     })
 
     elementWatcher.exitViewport(function () {
       hideGeoJSON()
+      showPopup = false
     })
 
     watchers.push(elementWatcher)
@@ -212,38 +214,22 @@ var map = new mapboxgl.Map({
 
 var navigationControl = new mapboxgl.NavigationControl()
 
-var navigationControlEnabled = false
-
 map.scrollZoom.disable()
 map.boxZoom.disable()
 map.dragRotate.disable()
 map.touchZoomRotate.disable()
 
-function disableMapInteraction () {
-  map.keyboard.disable()
-  map.doubleClickZoom.disable()
-  map.dragPan.disable()
+map.keyboard.enable()
+map.doubleClickZoom.enable()
+map.dragPan.enable()
 
-  if (navigationControlEnabled) {
-    map.removeControl(navigationControl)
-  }
+map.addControl(navigationControl, 'bottom-right')
 
-  navigationControlEnabled = false
-}
-
-function enableMapInteraction () {
-  map.keyboard.enable()
-  map.doubleClickZoom.enable()
-  map.dragPan.enable()
-
-  if (!navigationControlEnabled) {
-    map.addControl(navigationControl, 'bottom-right')
-  }
-
-  navigationControlEnabled = true
-}
-
-enableMapInteraction()
+var popup = new mapboxgl.Popup({
+  closeButton: false,
+  closeOnClick: false
+})
+var showPopup = true
 
 map.on('load', function () {
   map.addSource('geojson', {
@@ -287,8 +273,26 @@ map.on('load', function () {
     }
   })
 
+  map.on('mouseenter', 'geojson-fill', function (event) {
+    map.getCanvas().style.cursor = 'pointer'
+
+    if (showPopup) {
+      var areaId = event.features[0].properties.id
+
+      popup.setLngLat(event.lngLat)
+        .setHTML(areaTitles[areaId])
+        .addTo(map)
+    }
+  })
+
+  map.on('mouseleave', 'geojson-fill', function() {
+    map.getCanvas().style.cursor = ''
+    popup.remove()
+  })
+
   map.on('click', 'geojson-fill', function (event) {
     removeScrollListeners()
+    popup.remove()
 
     var areaId = event.features[0].properties.id
     location.href = '#' + areaId
@@ -296,7 +300,7 @@ map.on('load', function () {
     fitBounds(getBounds(areaId))
     highlightArea(areaId)
 
-    addScrollListeners()
+    window.setTimeout(addScrollListeners, 1000)
   })
 
   map.on('mouseenter', 'geojson-fill', function () {

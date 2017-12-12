@@ -7,10 +7,10 @@
   <meta charset='utf-8' />
   <title>The Changing Shoreline of New York City</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="stylesheet" href="css/style.css" />
   <script src='https://api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.41.0/mapbox-gl.css' rel='stylesheet' />
   <link href="https://fonts.googleapis.com/css?family=Neuton" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <div id="map-container">
@@ -19,8 +19,8 @@
   <article>
     <header>
       <div class="page trigger-overview">
-        <div id="title" class="pointer-events sticky">
-          <h1 class="wavy">
+        <div id="title" class="sticky">
+          <h1 class="wavy pointer-events">
             The Changing<br /> Shoreline<br /> of New York City
           </h1>
         </div>
@@ -34,6 +34,9 @@
       </div>
     </header>
     <main>
+      <script type="text/javascript">
+        var areaTitles = {}
+      </script>
       <ol id="areas">
         {% for area_id in site.data.areas %}
           {% include area.html area_id=area_id %}

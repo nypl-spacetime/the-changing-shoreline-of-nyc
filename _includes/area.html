@@ -1,6 +1,9 @@
 {% assign path = '/areas/' | append: area_id %}
 {% assign area = site.areas | where:'id', path | first %}
 <li class="area">
+  <script type="text/javascript">
+    areaTitles['{{ area_id }}'] = {{ area.title | jsonify }}
+  </script>
   <div>
     <div class="page trigger-area trigger-geojson" data-area-id="{{ area_id }}">
       <div class="sticky centered">
