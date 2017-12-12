@@ -254,6 +254,9 @@ header, main, footer {
   margin-right: 1em;
 }
 
+.indent {
+  margin-left: 2em;
+}
 
 @media (max-width: 750px) {
   #title h1 {
@@ -265,6 +268,10 @@ header, main, footer {
   h2 {
    font-size: 200%;
    background-size: 60px;
+  }
+
+  .indent {
+    margin-left: 0;
   }
 }
 

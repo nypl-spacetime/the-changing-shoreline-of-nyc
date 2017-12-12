@@ -15,20 +15,22 @@ Tubby Hook was once an awesome natural feature of the Manhattan coastline and th
 
 Many of the early Westside hamlets were slowly being taken over by development in the late 19th Century. The more romantic rural settings were decimated by the repetitive grid system which paradoxically complicated the seeming order of the nature present to descriptions of the natural landscape of early Manhattan. However, the hamlets in themselves can be seen as the seeds of urbanization itself and it would be blinding to want to preserve the idyllic quality of Nature when its bound to human intervention at any rate. The illusive Tubby Hook, a detail in the city’s history but a great promontory of the physical coastline, grounds the experience of the destruction of the natural habitat when it is pummeled to the ground literally to provide for landfill and expansion material.
 
-<p><i>
-Down there, on old Manhattan, <br/>
-Where land-sharks breed and fatten, <br/>
-They’ve wiped out Tubby Hook.  <br/>
-That famous promontory,  <br/>
-Renowned in song and story,  <br/>
-Which time nor tempest shook,  <br/>
-Whose name for aye had been good,  <br/>
-Stands newly christened ‘Inwood’  <br/>
-And branded with the shame  <br/>
-Of some old rogue who passes  <br/>
-By dint of aliases,  <br/>
-Afraid of his own name!  <br/>
-</i></p>
+<p class='indent'>
+  <i>
+    Down there, on old Manhattan,<br/>
+    Where land-sharks breed and fatten,<br/>
+    They’ve wiped out Tubby Hook.<br/>
+    That famous promontory,<br/>
+    Renowned in song and story,<br/>
+    Which time nor tempest shook,<br/>
+    Whose name for aye had been good,<br/>
+    Stands newly christened “Inwood”<br/>
+    And branded with the shame<br/>
+    Of some old rogue who passes<br/>
+    By dint of aliases,<br/>
+    Afraid of his own name!<br/>
+  </i>
+</p>
 
 William Allen Butler, 1886
 
