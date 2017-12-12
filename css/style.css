@@ -31,18 +31,12 @@ article {
   margin-bottom: 3em;
 }
 
-#title h1 {
-  line-height: 1.5;
-  padding-bottom: 0.3em;
-  background-size: 120px;
-}
-
 h1, h2, h3 {
   padding: 0;
   margin: 0.25em 0;
 }
 
-p, ul, li {
+p, ul, .figure {
   margin: 0;
   line-height: 2rem;
   margin-bottom: 1.4rem;
@@ -88,21 +82,13 @@ h1, h2 {
 
 h1 {
   font-size: 500%;
+  line-height: 1.5;
+  padding-bottom: 0.3em;
+  background-size: 120px;
 }
 
 h2 {
   font-size: 400%;
-}
-
-@media (max-width: 750px) {
-  #title h1 {
-    font-size: 200%;
-    background-size: 60px;
-  }
-
-  h2 {
-   font-size: 160%;
-  }
 }
 
 .sticky {
@@ -198,6 +184,7 @@ header, main, footer {
 
 #table-of-contents li {
   margin-left: 2em;
+  margin-bottom: 10px;
 }
 
 #areas {
@@ -234,18 +221,21 @@ header, main, footer {
 }
 
 .page-controls {
-  /*position: absolute;
-  list-style-type: none;*/
-  /*margin: 0;*/
-  /*padding: 0;*/
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
 .page-controls > * {
-  margin: 0 0.5em;
   margin-top: 10px;
+}
+
+.page-controls > *:first-child {
+  margin-right: 10px;
+}
+
+.page-controls > *:last-child {
+  margin-left: 10px;
 }
 
 .page-controls a {
@@ -263,3 +253,18 @@ header, main, footer {
   left: calc(-1em - 15px);
   margin-right: 1em;
 }
+
+
+@media (max-width: 750px) {
+  #title h1 {
+    font-size: 250%;
+    background-size: 80px;
+    line-height: 1.8;
+  }
+
+  h2 {
+   font-size: 200%;
+   background-size: 60px;
+  }
+}
+

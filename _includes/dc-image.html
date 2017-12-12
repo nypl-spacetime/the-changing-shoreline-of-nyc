@@ -1,8 +1,10 @@
-<a href="https://digitalcollections.nypl.org/items/{{ include.uuid }}">
-  <figure>
-    <img src="https://images.nypl.org/index.php?id={{ include.image_id }}&t=w" alt="{{ include.title }}" />
-    <figcaption>
-      <i>{{ include.title }}</i>
-    </figcaption>
-  </figure>
-</a>
+<div class="figure">
+  <a href="https://digitalcollections.nypl.org/items/{{ include.uuid }}">
+    <figure>
+      <img src="https://images.nypl.org/index.php?id={{ include.image_id }}&t=w" alt="{{ include.title }}" />
+      <figcaption>
+        <i>{{ include.title }}</i>
+      </figcaption>
+    </figure>
+  </a>
+</div>

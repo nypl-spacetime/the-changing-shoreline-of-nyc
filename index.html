@@ -19,19 +19,16 @@
   <article>
     <header>
       <div class="page trigger-overview">
-      <div id="title" class="pointer-events sticky">
-        <h1 class="wavy">The Changing Shoreline of New York City</h1>
-      </div>
-      <!-- <section class="box">
-        <p>
-          Scroll down to explore how New York City's shoreline grew throughout the centuries,
-          and view maps from the New York Public Library's collection of maps.
-        </p>
-      </section> -->
-
+        <div id="title" class="pointer-events sticky">
+          <h1 class="wavy">
+            The Changing<br /> Shoreline<br /> of New York City
+          </h1>
+        </div>
       </div>
       <section class="box">
-        {% include header.html %}
+        <div class="box-contents">
+          {% include header.html %}
+        </div>
       </section>
       <div class="page">
       </div>
@@ -47,7 +44,9 @@
       <div class="page trigger-overview">
       </div>
       <section class="box">
-        {% include footer.html %}
+        <div class="box-contents">
+          {% include footer.html %}
+        </div>
       </section>
     </footer>
   </article>

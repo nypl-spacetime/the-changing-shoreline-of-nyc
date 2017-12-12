@@ -14,9 +14,6 @@ function polygonToBounds (polygon) {
 var featuresById = {}
 geojson.features.forEach(function (feature) {
   feature.properties.bounds = polygonToBounds(feature.geometry)
-
-  // extend(obj)
-
   featuresById[feature.properties.id] = feature
 })
 
@@ -44,6 +41,8 @@ function getBounds (areaId) {
   }
 }
 
+var watchers = []
+
 function addScrollListeners () {
   forEach(document.querySelectorAll('.trigger-area'), function () {
     var areaId = this.getAttribute('data-area-id')
@@ -52,6 +51,8 @@ function addScrollListeners () {
     elementWatcher.enterViewport(function () {
       fitBounds(getBounds(areaId))
     })
+
+    watchers.push(elementWatcher)
   })
 
   forEach(document.querySelectorAll('.trigger-geojson'), function () {
@@ -70,6 +71,8 @@ function addScrollListeners () {
     elementWatcher.exitViewport(function () {
       hideGeoJSON()
     })
+
+    watchers.push(elementWatcher)
   })
 
   forEach(document.querySelectorAll('.trigger-mapwarper'), function () {
@@ -85,6 +88,8 @@ function addScrollListeners () {
     elementWatcher.exitViewport(function () {
       hideMapWarperMap()
     })
+
+    watchers.push(elementWatcher)
   })
 
   forEach(document.querySelectorAll('.trigger-overview'), function () {
@@ -98,7 +103,17 @@ function addScrollListeners () {
     elementWatcher.exitViewport(function () {
       hideGeoJSON()
     })
+
+    watchers.push(elementWatcher)
   })
+}
+
+function removeScrollListeners () {
+  watchers.forEach(function (watcher) {
+    watcher.destroy()
+  })
+
+  watchers = []
 }
 
 function fitBounds (bounds) {
@@ -272,12 +287,16 @@ map.on('load', function () {
     }
   })
 
-  map.on('click', 'geojson-fill', function (e) {
-    var areaId = e.features[0].properties.id
+  map.on('click', 'geojson-fill', function (event) {
+    removeScrollListeners()
 
-    // TODO: only if all areas are shown!!!
+    var areaId = event.features[0].properties.id
+    location.href = '#' + areaId
 
-    document.getElementById(areaId).scrollIntoView()
+    fitBounds(getBounds(areaId))
+    highlightArea(areaId)
+
+    addScrollListeners()
   })
 
   map.on('mouseenter', 'geojson-fill', function () {

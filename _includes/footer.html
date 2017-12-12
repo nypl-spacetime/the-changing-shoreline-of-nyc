@@ -1,20 +1,18 @@
-<div class="box-contents">
-  <p>
-    Table of contents:
-  </p>
-  <ol id="table-of-contents">
-    {% for area_id in site.data.areas %}
-      {% assign path = '/areas/' | append: area_id %}
-      {% assign area = site.areas | where:'id', path | first %}
-    <li>
-      <a href="#{{ area_id }}">{{ area.title }}</a>
-    </li>
-    {% endfor %}
-  </ol>
-  <p>
-    <i>The Changing Shoreline of New York City</i> is a project by Laura Blaszczak made during her internship at the New York Public Library (with some help by <a href="https://twitter.com/bertspaan">Bert Spaan</a> and <a href="http://www.luukvandeven.com/">Luuk van de Ven</a>), and is part of NYPL’s <a href="http://spacetime.nypl.org/">NYC Space/Time Directory</a>.
-  </p>
-  <p>
-    The source code of this project is available <a href="https://github.com/nypl-spacetime/the-changing-shoreline-of-nyc">on GitHub</a>.
-  </p>
-</div>
+<p>
+  Table of contents:
+</p>
+<ol id="table-of-contents">
+  {% for area_id in site.data.areas %}
+    {% assign path = '/areas/' | append: area_id %}
+    {% assign area = site.areas | where:'id', path | first %}
+  <li>
+    <a href="#{{ area_id }}">{{ area.title }}</a>
+  </li>
+  {% endfor %}
+</ol>
+<p>
+  <i>The Changing Shoreline of New York City</i> is a project by Laura Blaszczak made during her internship at the New York Public Library (with some help by <a href="https://twitter.com/bertspaan">Bert Spaan</a> and <a href="http://www.luukvandeven.com/">Luuk van de Ven</a>), and is part of NYPL’s <a href="http://spacetime.nypl.org/">NYC Space/Time Directory</a>.
+</p>
+<p>
+  The source code of this project is available <a href="https://github.com/nypl-spacetime/the-changing-shoreline-of-nyc">on GitHub</a>.
+</p>
